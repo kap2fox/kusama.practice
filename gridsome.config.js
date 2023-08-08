@@ -8,9 +8,10 @@ const yaml = require('js-yaml')
 const fs   = require('fs')
 
 module.exports = {
-  siteName: 'Robonomics Academy',
-  siteDescription: 'The core developers of the Robonomics project, robotics specialists and PhD research scientists offer to pass through compendious experience based on 7 years of work with web 3.0 projects. Get new skills in using modern web technologies to build IoT solutions.',
-  siteUrl: 'https://robonomics.academy',
+  siteName: 'Kusama Practice Course',
+  siteDescription: 'Open online course on the everyday usage of Kusama and its parachains, with practical examples and test of knowledge in dapp with the learning management system elements.',
+  siteUrl: 'https://kap2fox.github.io/kusama.practice',
+  pathPrefix: '/kusama.practice',
   titleTemplate: '%s',
 
   plugins: [
