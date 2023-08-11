@@ -13,9 +13,9 @@ https://youtu.be/w_Cij2r7p48
 
 Welcome back to our third lesson on the Polkadot and Kusama networks. We’ve journeyed through Polkadot’s history, unraveled its unique structure, and now we are poised to dive deeper. In this lesson, we’ll decode the core principles of Polkadot’s consensus — Nominated Proof-of-Stake (NPoS), the symbiotic roles of validators, nominators and collators, and the tools they leverage for a seamless, secure operation of the network. 
 
-## **************************The Mechanics of Nominated Proof-of-Stake (NPoS)**************************
+## **The Mechanics of Nominated Proof-of-Stake (NPoS)**
 
-Consensus is a method for coming to agreement over a shared state. Polkadot diverges from the mainstream consensus mechanisms like Proof-of-Work and Proof-of-Stake, opting for a more innovative solution called NPoS. This distinctive feature allows stakeholders to participate in securing the network in two capacities: as **validators** and **nominators.** And there’s also **********************collators.********************** What are they?
+Consensus is a method for coming to agreement over a shared state. Polkadot diverges from the mainstream consensus mechanisms like Proof-of-Work and Proof-of-Stake, opting for a more innovative solution called NPoS. This distinctive feature allows stakeholders to participate in securing the network in two capacities: as **validators** and **nominators.** And there’s also **collators.** What are they?
 
 | Role | Description | Responsibilities | Risks |
 | --- | --- | --- | --- |
@@ -27,7 +27,7 @@ In easy words, **NPoS** is a system where people lock up or 'stake' their crypto
 
 To keep the network secure, these roles use a variety of tools. Polkadot.js provides a suite of tools for interacting with the NPoS system in the Polkadot Network. Here is how it works:
 
-## **********************Polkadot.js**********************
+## **Polkadot.js**
 
 Interactions with the Polkadot network are facilitated by **[Polkadot.js](https://polkadot.js.org/)**.. It provides developers the ability to query a node and interact with the Substrate built blockchains, like Polkadot or Kusama and their parachains, using JavaScript. For example, you can use it’s API, one of the component of Polkadot.js collection, to interface with a Moonbeam node to read and write data to the network.
 
@@ -44,20 +44,21 @@ Polkadot.js offers these following capabilities:
 4. Working with contracts.
 5. Sending and receiving tokens.
 
-**************Staking**************
+**Staking**
 
 In this section most job by validators and nominators are done. Participation in staking starts with choosing validators you want to support. This is an important decision since it impacts your share of the staking revenue. 
 
-******************Referenda******************
+**Referenda**
 
 Since Polkadot is decentralized network, every token holder can have a vote in network governance. In the Referenda section of Polkadot.js, you can vote on existing proposals or create your own. Your vote will be weighed according to amount of tokens you have.
 
-**********************************Block information**********************************
+**Block information**
 
 This can be accessed from the main page of the Explorer section. It displays the latest blocks that have been added to the blockchain, and some additional information: height, hash, parent hash, state root, and extrinsics root.
 
-> ***Note**. In Polkadot, extrinsics represent pieces of information about transactions that come from outside the chain and are included in the blocks. They include not only regular transactions that transfer tokens from one account to another but also other types of operations, such as staking operations, governance votes, etc.*
-> 
+<robo-academy-note type="note" title="Interesting fact">
+In Polkadot, extrinsics represent pieces of information about transactions that come from outside the chain and are included in the blocks. They include not only regular transactions that transfer tokens from one account to another but also other types of operations, such as staking operations, governance votes, etc.*
+<robo-academy-note type="note"> 
 
 **Contracts**
 

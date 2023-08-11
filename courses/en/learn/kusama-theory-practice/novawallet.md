@@ -27,9 +27,16 @@ Nova Wallet provides two main ways to stake **DOT** or **KSM** tokens: self-dele
 
 In addition to **DOT** and **KSM** tokens, you can also stake tokens from various parachains, such as **AZERO, KMA, GLMR, MOVR, PDEX, CAPS, TUR, WND, and ZTG**, with attractive APYs ranging from 8.64% to 81%.
 
-<LessonImages src="kusama-theory-practice/lesson6-staking-list.png" alt=""/>
 
-<LessonImages src="kusama-theory-practice/lesson6-stake-dot.png" alt=""/>
+<robo-academy-grid :columns="2" textAlign="center">
+    <robo-academy-grid-element>
+        <LessonImages src="kusama-theory-practice/lesson6-staking-list.png" alt=""/>
+    </robo-academy-grid-element>
+    <robo-academy-grid-element>
+        <LessonImages src="kusama-theory-practice/lesson6-stake-dot.png" alt=""/>\
+    </robo-academy-grid-element>
+</robo-academy-grid>
+
 
 1. **Governance & Crowdloans**
 
@@ -37,9 +44,16 @@ Nova Wallet makes participating in governance processes, such as voting on refer
 
 You can use Nova Wallet to easily contribute to Polkadot and Kusama crowdloans in a non-custodial way, which one we strongly recommend you to do it, and not via a Centralized Exchange (CEX).
 
-<LessonImages src="kusama-theory-practice/lesson6-vote-governance.png" alt=""/>
 
-<LessonImages src="kusama-theory-practice/lesson6-vote-crowdloans.png" alt=""/>
+<robo-academy-grid :columns="2" textAlign="center">
+    <robo-academy-grid-element>
+        <LessonImages src="kusama-theory-practice/lesson6-vote-governance.png" alt=""/>
+    </robo-academy-grid-element>
+    <robo-academy-grid-element>
+        <LessonImages src="kusama-theory-practice/lesson6-vote-crowdloans.png" alt=""/>
+    </robo-academy-grid-element>
+</robo-academy-grid>
+
 
 1. **Nova Browser with quick acces to Polkadot dApps**
 

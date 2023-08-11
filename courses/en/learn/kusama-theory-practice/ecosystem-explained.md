@@ -37,13 +37,13 @@ The network's participants nominate validators with their tokens, and the indivi
 
 ## **Understanding Parachains and Parathreads**
 
-### ********************Parachains********************
+### **Parachains**
 
 Branching off the main highway, we have the **Parachains**. Imagine them like unique neighborhoods, each with their own vibes and specialties. Parachains benefit from the security and interoperability of the Relay Chain, but they can also do their own thing -  they could be a residential area, a business district, a park or a shopping center that serve different purposes. They also can have their own tokens, rules, handle their own transactions and even smart-contracts.
 
-Each parachain ****connected to the Relay Chain via special nodes called **validators.** They are responsible for validating the information produced by the collators of each parachain. Once validated, these transactions are included in the blockchain.
+Each parachain connected to the Relay Chain via special nodes called **validators.** They are responsible for validating the information produced by the collators of each parachain. Once validated, these transactions are included in the blockchain.
 
-### **********************Parathreads**********************
+### **Parathreads**
 
 **Parathreads** are like pop-up stores or food trucks. They are similar to parachains, but they don't have permanent slots on the Relay Chain. They basically rent space when they need it, making them a flexible and cost-effective option for less active blockchains.
 
@@ -66,7 +66,7 @@ Bridges make it possible for such external networks to interact and communicate 
 
 ## **DOT and KSM: Governance, Staking, and Bonding**
 
-### ********************Governance********************
+### **Governance**
 
 Owning DOT and KSM is equals to having voting tickets in our city council. If you have them, you can participate in deciding how the city should evolve. The more tokens you have, the more you can say. For example, token holders can vote on network upgrades or approve funding for some projects, just like this course. Imagine having the power to vote on whether our city gets a new park, or how high the buildings can be? This concept of governance system is very relevant to how Decentralized Autonomous Organization (DAO) operate, however, they are not strictly considered DAOs due to elements of centralized development.
 
@@ -77,11 +77,11 @@ With recent updates, Polkadot gone even more democratic with its [OpenGov](https
 3. Unique mechanism allows for multiple referenda to run simultaneously, that leads to faster decision-making without compromising security.
 4. The main network and all connected parachains are able to upgrade without hard forks, almost seamlessly.
 
-### **************Staking**************
+### **Staking**
 
 Every DOT or KSM holder can lock up his tokens to validate transactions (or nominate someone else to do so). In return for staking, and by thus helping secure the network, staker earns reward. This is like your way of contributing to the city’s security. By staking your tokens, you’re saying “I trust in this city, and I’m willing to put my tokens on the line for it”. And the city rewards you for that trust. If you’re a validator, you can even participate in the creation of new blocks and check transactions, just like being part of the city council. 
 
-### **************Bonding**************
+### **Bonding**
 
 This is what you do when you want to add a new building (or parachain) to our city. You bond (or lock up) your DOT or KSM tokens for a certain period to secure a slot for your parachain. This is like putting down a deposit on a piece of land where you want to build your own skyscraper. Once the lease is up, you get your deposit back.
 

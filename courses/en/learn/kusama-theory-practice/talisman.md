@@ -11,7 +11,7 @@ https://youtu.be/S49_aXaSMTM
 
 # Lesson 4. Talisman. More than just a wallet
 
-## ************************************************Recap of Block 1************************************************
+## **Recap of Block 1**
 
 In the first block of our course, we went over a journey to understand the architecture and core functionalities of the Polkadot and Kusama networks. We explored how these multi-chain networks operate, the differences between Polkadot and Kusama, the central rule of Polkadot - shared security, and the importance of governance, staking, and bonding using DOT and KSM tokens.
 
@@ -45,8 +45,14 @@ Once users import their private keys and establish bridge connections, they can 
 
 A user-friendly Talisman interface allows you to lock your tokens to support the network's security and consensus mechanism. This process is streamlined, making it accessible to both beginners and experienced users alike.
 
-<LessonImages src="kusama-theory-practice/lesson4-stake.png" alt=""/>
-<LessonImages src="kusama-theory-practice/lesson4-stake-pool.png" alt=""/>
+<robo-academy-grid :columns="2" textAlign="center">
+    <robo-academy-grid-element>
+        <LessonImages src="kusama-theory-practice/lesson4-stake.png" alt=""/>
+    </robo-academy-grid-element>
+    <robo-academy-grid-element>
+        <LessonImages src="kusama-theory-practice/lesson4-stake-pool.png" alt=""/>
+    </robo-academy-grid-element>
+</robo-academy-grid>
 
 
 You can easily select the amount of tokens you wish (starting from 1 token) to stake and choose your preferred validator to delegate your tokens. The wallet provides clear and concise information about the staking process, including estimated rewards and staking duration.

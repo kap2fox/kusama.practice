@@ -30,7 +30,7 @@ In the world of cryptocurrency, there are two types of wallets: software (hot) a
 
 Using a Ledger wallet is like having a personal vault for your digital assets. When you initiate a transaction, the hardware wallet signs it securely with the private key stored on the device. This signed transaction is then broadcasted to the network, ensuring that your private key never leaves the safety of the hardware wallet. As a result, even if your computer or mobile device is compromised by malware or hackers, your cryptocurrencies remain safe and inaccessible to unauthorized parties. But there’s one catch.
 
-### ********************Not a 100% safe********************
+### **Not a 100% safe**
 
 Remember, we mentioned that the Ledger wallet almost entirely eliminates the risk of losing your assets? While it is true that any cold wallet, including **Ledger**, is much safer than a software wallet due to the lack of internet connection, it still requires intermediary software provided by the developer to function. When selecting a cold wallet, this should be considered.
 

@@ -23,7 +23,7 @@ Today marks the commencement of our voyage into the Polkadot and Kusama networks
 
 ### 1.1 What is Polkadot
 
-**Polkadot** is an innovative project that aims to unlock the full potential of blockchain technology. It is still a blockchain, but not the average one we’re used to see. We are talking about a **“heterogeneous multichain”**, a term that basically means a multiple blockchains and other data structures, united in single network. Those blockchains are called ****“parachains”,**** and can interact with one another in safe and scalable environment.
+**Polkadot** is an innovative project that aims to unlock the full potential of blockchain technology. It is still a blockchain, but not the average one we’re used to see. We are talking about a **“heterogeneous multichain”**, a term that basically means a multiple blockchains and other data structures, united in single network. Those blockchains are called **“parachains”,** and can interact with one another in safe and scalable environment.
 
 One of the fundamental approaches of Polkadot ecosystem is the concept of [shared security](https://wiki.polkadot.network/docs/learn-parachains). What does it stand for?
 
@@ -45,9 +45,9 @@ Streamlined timeline of Polkadot’s journey:
 - **May 2020:** Official launch of the Polkadot Network.
 - **2020- Present:** Active growing and evolving.
 
-> **Interesting fact**
-*Wondering why a high-tech blockchain network is named "Polkadot"? The name isn't random! It perfectly captures the project's essence. Just like a polka dot pattern has unique dots, Polkadot houses unique but interconnected parachains. Each "dot" is a unique parachain serving its own purpose while being part of a larger network. The name Polkadot is a playful nod to this diversity and interconnectedness*.
-> 
+<robo-academy-note type="note" title="Interesting fact">
+Wondering why a high-tech blockchain network is named "Polkadot"? The name isn't random! It perfectly captures the project's essence. Just like a polka dot pattern has unique dots, Polkadot houses unique but interconnected parachains. Each "dot" is a unique parachain serving its own purpose while being part of a larger network. The name Polkadot is a playful nod to this diversity and interconnectedness.
+<robo-academy-note type="note"> 
 
 ## 2. Why Polkadot has the potential?
 
@@ -73,9 +73,9 @@ Imagine you're using the internet today (the web2 world). You sign up for a soci
 
 Now, let's move into the web3 world, powered by systems like Polkadot and Kusama. Here, you join a new social media platform, let's call it platform B. But this time, instead of creating a username and password, you use your **digital wallet** to create an account. This wallet is secured by blockchain technology and cryptography.
 
-> ***Note**
+<robo-academy-note type="note">
 In web3, the digital wallet isn't just a tool to keep your money on. It's your passport, your ID, and your bank, all in one. You can also use your wallet through different parachains, since they are a part of the Polkadot or Kusama relay chain. Wallet time!*
-> 
+</robo-academy-note>
 
 On platform B, you're not just a user, you're a stakeholder. All your data is stored on a decentralized network and can't be wiped out by some company or government. In fact, all private data in web3 are non-fungible tokens. So, if you want to share your data with someone, you might even get paid for it. Sounds cool, right?
 
@@ -91,7 +91,9 @@ The introduction of "bulk core time" allows block space to be traded as a true c
 
 Please keep in mind that these new features are still in the planning stages, aiming to address current issues. Nonetheless, it is quite interesting to know what will be happening to the network in the near future.
 
-P.S.: If you want to expand your knowledge of Polkadot even more, you can take a closer look at the Polkadot [whitepaper](https://polkadot.network/whitepaper/), or, atleast, a [lightpaper](https://polkadot.network/whitepaper/).# Theory: Test
+P.S.: If you want to expand your knowledge of Polkadot even more, you can take a closer look at the Polkadot [whitepaper](https://polkadot.network/whitepaper/), or, atleast, a [lightpaper](https://polkadot.network/whitepaper/).
+
+# Theory: Test
 
 ### Question 1
 
