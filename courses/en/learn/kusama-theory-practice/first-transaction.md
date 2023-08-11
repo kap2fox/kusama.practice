@@ -56,9 +56,9 @@ Since Polkadot is decentralized network, every token holder can have a vote in n
 
 This can be accessed from the main page of the Explorer section. It displays the latest blocks that have been added to the blockchain, and some additional information: height, hash, parent hash, state root, and extrinsics root.
 
-<robo-academy-note type="note" title="Interesting fact">
+<robo-academy-note type="note">
 In Polkadot, extrinsics represent pieces of information about transactions that come from outside the chain and are included in the blocks. They include not only regular transactions that transfer tokens from one account to another but also other types of operations, such as staking operations, governance votes, etc.*
-<robo-academy-note type="note"> 
+</robo-academy-note> 
 
 **Contracts**
 
@@ -74,7 +74,7 @@ In our video, dedicated to this lesson, we showed an example of a transaction se
 
 ---
 
-**Conclusion**
+## **Conclusion**
 
 Polkadot.js serves as an essential tool in managing and navigating NPoS consensus in Polkadot ecosystem. It provides a user-friendly interface for participating in staking as a nominator or validator. This includes bonding tokens, nominating validators, or setting up as a validator. Additionally, it facilitates participation in governance via referenda and allows users to interact with smart contracts. 
 

@@ -69,8 +69,9 @@ This is the part where users decide which projects will secure a parachain slot 
 
 To start using Talisman wallet, you can create a new account in **Polkadot** or **Ethereum** networks, or you can import existing ones via recovery phrase. You can also import your **Polkadot.js** account via JSON file, or even connect your **Ledger** wallet.
 
-> *Note. A Ledger wallet is a physical device that keeps your cryptocurrency safe. It stores your private keys offline, making it highly secure and less prone to hacking. We will talk about it in our next lesson.*
-> 
+<robo-academy-note type="note">
+A Ledger wallet is a physical device that keeps your cryptocurrency safe. It stores your private keys offline, making it highly secure and less prone to hacking. We will talk about it in our next lesson.*
+</robo-academy-note>
 
 ## How to Set Up Your Talisman Wallet
 

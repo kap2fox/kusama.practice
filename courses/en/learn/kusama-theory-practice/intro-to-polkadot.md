@@ -47,7 +47,7 @@ Streamlined timeline of Polkadot’s journey:
 
 <robo-academy-note type="note" title="Interesting fact">
 Wondering why a high-tech blockchain network is named "Polkadot"? The name isn't random! It perfectly captures the project's essence. Just like a polka dot pattern has unique dots, Polkadot houses unique but interconnected parachains. Each "dot" is a unique parachain serving its own purpose while being part of a larger network. The name Polkadot is a playful nod to this diversity and interconnectedness.
-<robo-academy-note type="note"> 
+</robo-academy-note> 
 
 ## 2. Why Polkadot has the potential?
 
