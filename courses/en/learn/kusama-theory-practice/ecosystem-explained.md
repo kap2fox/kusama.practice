@@ -7,7 +7,7 @@ defaultName: Kusama — From Theory to Practice Course
 
 # Video Lecture
 
-https://youtu.be/Iwn27Djmvco
+https://youtu.be/n-l-A0_JAJc
 
 # Lesson 2. Polkadot & Kusama structure
 
