@@ -87,6 +87,8 @@ import {
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+import QuizBlock from '~/components/QuizBlock.vue'
+
 
 export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.use(Vuex);
@@ -113,6 +115,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('RoboAcademyDialog', RoboAcademyDialog)
   Vue.component('RoboAcademyTerminal', RoboAcademyTerminal)
   Vue.component('ChatGPT', ChatGPT)
+  Vue.component('QuizBlock', QuizBlock)
+
 
   /* add font awesome icon component */
   Vue.component('font-awesome-icon', FontAwesomeIcon)
