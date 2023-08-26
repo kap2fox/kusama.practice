@@ -8,9 +8,17 @@
       <div  v-for="answer in answers">
         <input style="padding-right: 10px" type="radio" :id="answer.id" :value="answer.id" v-model="selectedAnswer" />
         <label style="margin-left: 10px" :for="answer.id">{{answer.text}}</label>
-<!--        <div style="margin-top: 1rem">-->
-<!--          <button @click="()=>sendChooseAnswer(answer.id)">{{ answer.text }}</button>-->
-<!--        </div>-->
+      </div>
+      <div class="flex-end">
+        <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendChooseAnswer([this.selectedAnswer])">Answer</button>
+      </div>
+
+    </div>
+
+    <div v-if="quizType==='multichoose'">
+      <div  v-for="answer in answers">
+        <input style="padding-right: 10px" type="checkbox" :id="answer.id" :value="answer.id" v-model="selectedAnswer" />
+        <label style="margin-left: 10px" :for="answer.id">{{answer.text}}</label>
       </div>
       <div class="flex-end">
         <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendChooseAnswer(this.selectedAnswer)">Answer</button>
@@ -53,7 +61,7 @@ export default {
       answers: [],
       quizType: '',
       userAnswers: {},
-      selectedAnswer: '',
+      selectedAnswer: [],
     }
   },
   methods: {
