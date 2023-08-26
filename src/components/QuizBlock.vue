@@ -1,22 +1,37 @@
 <template>
   <div>
-    <h3>Question: {{ question }}</h3>
+    <h3 style="margin-bottom: 0">Question: </h3>
+
+    <div style="font-style: italic">{{ question }}</div>
+
     <div v-if="quizType==='choose'">
-      <div v-for="answer in answers">
-        <div style="margin-top: 1rem">
-          <button @click="()=>sendChooseAnswer(answer.id)">{{ answer.text }}</button>
-        </div>
+      <div  v-for="answer in answers">
+        <input style="padding-right: 10px" type="radio" :id="answer.id" :value="answer.id" v-model="selectedAnswer" />
+        <label style="margin-left: 10px" :for="answer.id">{{answer.text}}</label>
+<!--        <div style="margin-top: 1rem">-->
+<!--          <button @click="()=>sendChooseAnswer(answer.id)">{{ answer.text }}</button>-->
+<!--        </div>-->
       </div>
-    </div>
-    <div v-if="quizType=='enter'">
-      <div v-for="answer in answers">
-        <div style="margin-top: 1rem">
-          <span>{{ answer.text }}: <input @input="(event) => changeUserAnswers(answer.id, event.target.value.trim())"/></span>
-        </div>
+      <div class="flex-end">
+        <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendChooseAnswer(this.selectedAnswer)">Answer</button>
       </div>
-      <button @click="()=>sendEnterAnswer()">Answer</button>
 
     </div>
+
+    <div v-if="quizType==='enter'">
+      <div v-for="answer in answers">
+        <div style="margin-top: 1rem">
+          <span>{{ answer.text}}: <input style="font-size: 18px; padding-left: 5px; padding-right: 5px; float: right" @input="(event) => changeUserAnswers(answer.id, event.target.value.trim())"/></span>
+        </div>
+      </div>
+      <div class="flex-end">
+        <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendEnterAnswer()">Answer</button>
+      </div>
+
+
+
+    </div>
+    <hr/>
   </div>
 </template>
 
@@ -37,12 +52,13 @@ export default {
       question: '',
       answers: [],
       quizType: '',
-      userAnswers: {}
+      userAnswers: {},
+      selectedAnswer: '',
     }
   },
   methods: {
-    changeUserAnswers(questionId, answer){
-      this.userAnswers[questionId] = answer
+    changeUserAnswers(answerId, answer){
+      this.userAnswers[answerId] = answer
     },
     sendEnterAnswer() {
       fetch(this.quizUrl, {
@@ -99,5 +115,9 @@ export default {
 </script>
 
 <style scoped>
-
+      .flex-end {
+        padding: 10px 0;
+        display: flex;
+        justify-content: flex-end;
+      }
 </style>
