@@ -154,3 +154,8 @@ In any case, almost all wallet applications during the creation phase will ask y
 1. Download and install a wallet application. Different wallet options are available for Polkadot and Kusama (see [here](https://wiki.polkadot.network/docs/wallets-and-extensions)). All of them provide basic functionality (wallet creation, transaction sending), but some advanced features of the ecosystem may not be available. In our course, we will use [Talisman wallet](https://www.talisman.xyz/), which works within the browser.
 2. Create a wallet. The application will ask you to create a strong password for it, which will be used for quick access to the wallet from this application.
 3. Securely write down and save the seed phrase for your wallet.
+
+<FeedbackBlock 
+formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"
+lessonLabel="ecosystem-explained"
+/>

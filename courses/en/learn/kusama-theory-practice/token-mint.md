@@ -90,3 +90,9 @@ If you want to practice creating your own token, you can do so on a testnet by u
 **More about “Statemint”, later AssetHub** - [https://www.parity.io/blog/statemint-generic-assets-chain-proposing-a-common-good-parachain-to-polkadot-governance/](https://www.parity.io/blog/statemint-generic-assets-chain-proposing-a-common-good-parachain-to-polkadot-governance/)
 
 **How to Create, Transfer and Destroy Fungible Tokens on Polkadot** - [https://youtu.be/knNLZEyposM](https://youtu.be/knNLZEyposM)
+
+
+<FeedbackBlock 
+formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"
+lessonLabel="token-mint"
+/>

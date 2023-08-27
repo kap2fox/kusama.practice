@@ -456,7 +456,7 @@
   updated/en/learn/boston-dynamics-spot/overview/: false   
 
 - link: /en/learn/kusama-theory-practice/polkadot-overview/ 
-  hash: 443c43ff93b41777f9cd31feeb76bfe0 
+  hash: 8ee1da7cc8421d9f616fccb80af45b4d 
   lastUpdate: Sun Jul 23 2023 21:31:33 GMT+0300 (Eastern European Summer Time) 
   updated/en/learn/kusama-theory-practice/polkadot-overview/: true 
 
@@ -476,14 +476,14 @@
   updated/en/learn/kusama-theory-practice/polkadot-overview/: true 
 
 - link: /en/learn/kusama-theory-practice/polkadot-overview/ 
-  hash: 443c43ff93b41777f9cd31feeb76bfe0 
-  lastUpdate: Sun Aug 27 2023 15:50:24 GMT+0300 (Moscow Standard Time) 
+  hash: 8ee1da7cc8421d9f616fccb80af45b4d 
+  lastUpdate: Sun Aug 27 2023 18:22:32 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/polkadot-overview/: true 
 
 - link: /en/learn/kusama-theory-practice/overview/ 
-  hash: 443c43ff93b41777f9cd31feeb76bfe0 
-  lastUpdate: Sun Aug 27 2023 15:50:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/overview/: true        
+  hash: 8ee1da7cc8421d9f616fccb80af45b4d 
+  lastUpdate: Sun Aug 27 2023 18:03:40 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/overview/: true          
 
 - link: /en/learn/kusama-theory-practice/polkadot-overview/ 
   hash: 8e3ca6dda6f73b1b70ab9a2f465302d8 
@@ -491,143 +491,143 @@
   updated/en/learn/kusama-theory-practice/polkadot-overview/: true 
 
 - link: /en/learn/kusama-theory-practice/polkadot-overview/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/polkadot-overview/: true 
 
 - link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true    
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true     
 
 - link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
 
 - link: /en/learn/kusama-theory-practice/overview/ 
-  hash: 443c43ff93b41777f9cd31feeb76bfe0 
-  lastUpdate: Sun Aug 27 2023 15:50:24 GMT+0300 (Moscow Standard Time) 
+  hash: 8ee1da7cc8421d9f616fccb80af45b4d 
+  lastUpdate: Sun Aug 27 2023 18:03:40 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/overview/: true          
+
+- link: /en/learn/kusama-theory-practice/overview/ 
+  hash: 2c503f8268eb401de690c4a9bddac69e 
+  lastUpdate: Sun Aug 27 2023 18:22:32 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/overview/: true        
 
 - link: /en/learn/kusama-theory-practice/overview/ 
-  hash: 8f46e5a103227f7d424abd9da51cd326 
-  lastUpdate: Sun Aug 27 2023 15:50:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/overview/: true      
-
-- link: /en/learn/kusama-theory-practice/overview/ 
-  hash: 8f46e5a103227f7d424abd9da51cd326 
-  lastUpdate: Sun Aug 27 2023 16:14:55 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/overview/: true      
+  hash: 2c503f8268eb401de690c4a9bddac69e 
+  lastUpdate: Sun Aug 27 2023 18:03:40 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/overview/: true        
 
 - link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
+
+- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
+  hash: b4572842308381873e6936449cbd58e6 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
 
 - link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
   hash: 2f5b9a24ef503b0801d648d4e768b276 
   lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: 2f5b9a24ef503b0801d648d4e768b276 
-  lastUpdate: Sun Aug 27 2023 15:02:35 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
-
-- link: /en/learn/kusama-theory-practice/intro-to-polkadot/ 
-  hash: e1723c86d5be8c89e42befe5f99390e1 
-  lastUpdate: Fri Aug 11 2023 14:02:59 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/intro-to-polkadot/: true   
 
 - link: /en/learn/kusama-theory-practice/ecosystem-explained/ 
-  hash: 70ccab703930eb2aeb1446de0a5e5e45 
-  lastUpdate: Sun Aug 27 2023 15:10:22 GMT+0300 (Moscow Standard Time) 
+  hash: c0bc6c03dcfc0b7fe47b85b5d3d5ecbc 
+  lastUpdate: Sun Aug 27 2023 21:36:47 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/ecosystem-explained/: true   
 
 - link: /en/learn/kusama-theory-practice/first-transaction/ 
-  hash: 3a3424cd50e3ee7630186905e1964b3f 
-  lastUpdate: Sun Aug 27 2023 15:12:08 GMT+0300 (Moscow Standard Time) 
+  hash: 89a079e70f79907b242d3f519b116b73 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/first-transaction/: true   
 
 - link: /en/learn/feecc-course/feecc-analytics-deployment/ 
@@ -656,56 +656,56 @@
   updated/en/learn/feecc-course/overview/: false  
 
 - link: /en/learn/kusama-theory-practice/talisman/ 
-  hash: 76e8e5013fc03603231be56f9973b965 
-  lastUpdate: Sun Aug 27 2023 15:35:06 GMT+0300 (Moscow Standard Time) 
+  hash: 11390fbc50103888f8dcd820dd2c2042 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/talisman/: true  
 
 - link: /en/learn/kusama-theory-practice/ledger/ 
-  hash: d556be0b484a90208a5403d57a88bff3 
-  lastUpdate: Sun Aug 27 2023 15:48:50 GMT+0300 (Moscow Standard Time) 
+  hash: 6ea1ebf35d17c269e21da5c4eb03d3c3 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/ledger/: true  
 
 - link: /en/learn/kusama-theory-practice/novawallet/ 
-  hash: ba4330a3eed04aec38ce44e3040c62f3 
-  lastUpdate: Sun Aug 27 2023 15:49:34 GMT+0300 (Moscow Standard Time) 
+  hash: fd6de566499da0232831396b46351b4d 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/novawallet/: true  
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: d41d8cd98f00b204e9800998ecf8427e 
-  lastUpdate: Sun Aug 27 2023 16:01:29 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: 784e73bc2fa625ff711a13ff45ff21e2 
-  lastUpdate: Sun Aug 27 2023 16:01:41 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: 7144b57acc445f36c852588117070a67 
-  lastUpdate: Sun Aug 27 2023 16:02:33 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: f89abf9fab6b56b21750a1940193065d 
-  lastUpdate: Sun Aug 27 2023 16:02:46 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: 09dffa86dce0c4f00aa668bf24e1712a 
-  lastUpdate: Sun Aug 27 2023 16:04:08 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: 113711cfad407127213f82116f03aa42 
-  lastUpdate: Sun Aug 27 2023 16:04:14 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: 72a3f8e32b2b6efb24e9ac2790f8c4d1 
-  lastUpdate: Sun Aug 27 2023 16:05:02 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
 
 - link: /en/learn/kusama-theory-practice/token-mint/ 
-  hash: 6a00db7aca4495a9eefe7511afc367f4 
-  lastUpdate: Sun Aug 27 2023 16:05:25 GMT+0300 (Moscow Standard Time) 
+  hash: 906f09056b3b325476d5cc8f3afca828 
+  lastUpdate: Sun Aug 27 2023 21:38:17 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/token-mint/: true 
