@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h3 style="margin-bottom: 0">Question: </h3>
+    <h3 style="margin-bottom: 1rem">Question: </h3>
 
-    <div style="font-style: italic">{{ question }}</div>
+    <div style="font-style: italic; margin-bottom: 1rem" v-for="question in question_parts">{{ question}}</div>
 
     <div v-if="quizType==='choose'">
-      <div  v-for="answer in answers">
-        <input style="padding-right: 10px" type="radio" :id="answer.id" :value="answer.id" v-model="selectedAnswer" />
-        <label style="margin-left: 10px" :for="answer.id">{{answer.text}}</label>
+      <div  v-for="(answer, ind) in answers">
+        <input style="padding-right: 10px" type="radio" :id="id_prefix+answer.id" :value="answer.id" v-model="selectedAnswer" />
+        <label style="margin-left: 10px" :for="id_prefix+answer.id">{{answer.text}}</label>
       </div>
       <div class="flex-end">
         <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendChooseAnswer([this.selectedAnswer])">Answer</button>
@@ -16,9 +16,9 @@
     </div>
 
     <div v-if="quizType==='multichoose'">
-      <div  v-for="answer in answers">
-        <input style="padding-right: 10px" type="checkbox" :id="answer.id" :value="answer.id" v-model="selectedAnswer" />
-        <label style="margin-left: 10px" :for="answer.id">{{answer.text}}</label>
+      <div  v-for="(answer, ind) in answers">
+        <input style="padding-right: 10px" type="checkbox" :id="id_prefix+answer.id" :value="answer.id" v-model="selectedAnswer" />
+        <label style="margin-left: 10px" :for="id_prefix+answer.id">{{answer.text}}</label>
       </div>
       <div class="flex-end">
         <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendChooseAnswer(this.selectedAnswer)">Answer</button>
@@ -57,11 +57,12 @@ export default {
   },
   data() {
     return {
-      question: '',
+      question_parts: '',
       answers: [],
       quizType: '',
       userAnswers: {},
       selectedAnswer: [],
+      id_prefix: ''
     }
   },
   methods: {
@@ -96,7 +97,7 @@ export default {
         body: JSON.stringify({
           'action': 'answer',
           'quiz_id': this.quizId,
-          'answers': [answerId]
+          'answers': answerId
         })
       }).then((res) => res.json()).then(data => {
         alert(JSON.stringify(data))
@@ -112,9 +113,10 @@ export default {
     }))
         .then(response => response.json())
         .then(data => {
-          this.question = data.question
+          this.question_parts = data.question.split("\n")
           this.quizType = data.type
           this.answers = data.answers
+          this.id_prefix = this._uid
         });
   },
 
