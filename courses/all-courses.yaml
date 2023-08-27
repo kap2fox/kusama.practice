@@ -398,7 +398,7 @@
     - id: '7'
       title: 'How to mint your own token?'
       path: 'token-mint'
-      status: in progress
+      status: done
     - id: '8'
       title: 'How to manage your token?'
       path: 'token-manage'
