@@ -53,3 +53,20 @@ To begin securely storing your cryptocurrencies with Ledger, follow these steps:
 5. Now you can **receive** and **send** cryptocurrencies, participate in **staking**, and interact with DeFi apps using Ledger's user-friendly interface.
 
 Remember to treat your Ledger wallet like you would treat physical cash or valuable items, and always keep the device and recovery seed in a safe place to ensure the security of your digital assets.
+
+# Theory: Test
+
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question5.1"
+/>
+
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question5.2"
+/>
+
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question5.3"
+/>

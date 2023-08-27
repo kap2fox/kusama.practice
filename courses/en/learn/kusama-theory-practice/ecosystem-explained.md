@@ -113,50 +113,20 @@ Let’s wrap up key points of what we have learned today:
 We hope this overview gave you a clearer picture of how Polkadot and Kusama networks function. In our upcoming lessons, we’ll take a closer look at their mechanisms. Stay tuned, until next time!
 # Theory: Test
 
-### Question 1
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question2.1"
+/>
 
-Choose from the proposed list of features that the Polkadot and Kusama ecosystem has:
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question2.2"
+/>
 
-- On-chain governance
-- Quantum multi-chain computing
-- Shared security
-- Central control committee
-- Unified Proof-of-Work consensus
-- Cross-chain interoperability
-
-### Question 2
-
-Choose the right definitions for the following Polkadot and Kusama ecosystem concepts:
-
-Concepts:
-- Relay Chain
-- Parachain
-- Parathread
-- Bridge
-- Validator
-- Collator
-
-Definitions:
-
-- — a node that maintains a parachain by collecting parachain transactions and producing proofs for the validation.
-- — central chain that provides security for the network and enables cross-chain interoperability.
-- — a custom, application-specific data structure (usually, a blockchain) without a slot that can temporarily participate on a pay-as-you-go basis in the common network.
-- — a node that secures Relay Chain by staking its tokens and validating proofs of parachains.
-- — a connection by which two economically sovereign and technologically diverse chains to communicate with each other.
-- — a custom, application-specific data structure (usually, a blockchain) with own characteristics and purposes.
-
-### Question 3
-
-Use [Subscan.io](http://subscan.io/) and select 3 parachains from the list that are NOT PRESENT in the Kusama ecosystem:
-
-- Moonbeam
-- Robonomics
-- Basilisk
-- Solana
-- Moonriver
-- Rococo
-- Crust Shadow
-- Karura
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question2.3"
+/>
 
 
 # Practice: Install Wallet

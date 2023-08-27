@@ -95,23 +95,17 @@ P.S.: If you want to expand your knowledge of Polkadot even more, you can take a
 
 # Theory: Test
 
-### Question 1
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question1.1"
+/>  
 
-Specify the approximate number of transactions per second (tps) usually processed by the following systems (hint: you can use [Blockchair.com](http://blockchair.com/)):
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question1.2"
+/>
 
-- Bitcoin
-- Visa
-- Ethereum
-
-### Question 2
-
-Find the price of KSM token (in $) on November 5, 2020 at the time of closing using [GoinGecko](https://www.coingecko.com/) (hint: use Historical Data).
-
-### Question 3
-
-Which of the following blockchain projects has a heterogeneous multichain architecture?
-
-1. Ethereum
-2. Polkadot
-3. Bitcoin
-4. Dogecoin
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question1.3"
+/>

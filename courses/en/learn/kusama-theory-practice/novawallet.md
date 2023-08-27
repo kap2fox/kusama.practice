@@ -66,3 +66,20 @@ Nova Wallet is available for download on both the App Store and Google Play Stor
 ## Conclusion
 
 Nova Wallet stands out as one of the most user-friendly and effective crypto wallets for mobile phones. Its full compatibility with the Polkadot and Kusama ecosystems makes it an ideal choice for Web3 tasks, offering versatility and convenience. However, it's essential to remember that a wallet like Nova is simply an interface for accessing your assets, which are always securely stored in the blockchain (especially in the case of non-custodial wallets like Nova). The responsibility for wallet security lies directly with the user and how diligently they handle their seed phrase. We conclude the block dedicated to cryptocurrency wallets and switching to the exploration of Asset Hub - a powerful tool for creating, managing, and customizing your own tokens. See you soon!
+
+# Theory: Test
+
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question6.1"
+/>
+
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question6.2"
+/>
+
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question6.3"
+/>
