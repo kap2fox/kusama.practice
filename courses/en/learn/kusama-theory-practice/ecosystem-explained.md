@@ -111,7 +111,8 @@ Let’s wrap up key points of what we have learned today:
 - **Staking** and **bonding** tokens earn rewards and secure slots for parachains.
 
 We hope this overview gave you a clearer picture of how Polkadot and Kusama networks function. In our upcoming lessons, we’ll take a closer look at their mechanisms. Stay tuned, until next time!
-# Theory: Test
+
+<Spoiler title="<h2 style='display: inline;' >Theory: Test</h2>">
 
 <QuizBlock 
 quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
@@ -128,8 +129,9 @@ quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-
 quizId="question2.3"
 />
 
+</Spoiler>
 
-# Practice: Install Wallet
+<Spoiler title="<h2 style='display: inline;' >Practice: Install Wallet</h2>">
 
 In this small practical task, you will learn how to install and create a wallet designed to work with the Polkadot and Kusama ecosystems.
 
@@ -154,6 +156,8 @@ In any case, almost all wallet applications during the creation phase will ask y
 1. Download and install a wallet application. Different wallet options are available for Polkadot and Kusama (see [here](https://wiki.polkadot.network/docs/wallets-and-extensions)). All of them provide basic functionality (wallet creation, transaction sending), but some advanced features of the ecosystem may not be available. In our course, we will use [Talisman wallet](https://www.talisman.xyz/), which works within the browser.
 2. Create a wallet. The application will ask you to create a strong password for it, which will be used for quick access to the wallet from this application.
 3. Securely write down and save the seed phrase for your wallet.
+
+</Spoiler>
 
 <FeedbackBlock 
 formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"

@@ -79,7 +79,8 @@ In our video, dedicated to this lesson, we showed an example of a transaction se
 Polkadot.js serves as an essential tool in managing and navigating NPoS consensus in Polkadot ecosystem. It provides a user-friendly interface for participating in staking as a nominator or validator. This includes bonding tokens, nominating validators, or setting up as a validator. Additionally, it facilitates participation in governance via referenda and allows users to interact with smart contracts. 
 
 Just like a city hub that is central to urban life, Polkadot.js forms a vital part of the Polkadot ecosystem, as it enables active participation, efficient communication, thereby ensuring a thriving, interconnected city. In our next module we’ll take a closer look at **wallets** you can create to interact with Polkadot through this tool, so stay tuned!
-# Theory: Test
+
+<Spoiler title="<h2 style='display: inline;' >Theory: Test</h2>">
 
 <QuizBlock 
 quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
@@ -96,7 +97,9 @@ quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-
 quizId="question3.3"
 />
 
-# Practice: First Transaction
+</Spoiler>
+
+<Spoiler title="<h2 style='display: inline;' >Practice: First Transaction</h2>">
 
 In this practical task, you will need to execute your first transaction using test tokens on the Rococo testnet. The task will be considered successfully completed when the transaction is executed successfully and the ROC tokens are transferred to the specified address.
 
@@ -120,6 +123,8 @@ In this practical task, you will need to execute your first transaction using te
 and specify any amount of ROC tokens. The address will change its format to Rococo format.
 
 6. Press the `Make Transfer` button and confirm the transaction in your wallet application.
+
+</Spoiler>
 
 <FeedbackBlock 
 formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"

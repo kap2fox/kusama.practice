@@ -77,7 +77,7 @@ A Ledger wallet is a physical device that keeps your cryptocurrency safe. It sto
 
 The Talisman wallet web extension is available on Chromium-based browsers (such as Brave, Chrome, and Edge) and Firefox. You can find it on the [Google Web Store](https://chrome.google.com/webstore/detail/talisman-polkadot-wallet/fijngjgcjhjmmpcmkeiomlglpeiijkld). If you haven't already, we recommend watching the video lesson for direct instructions on installation.
 
-# Theory: Test
+<Spoiler title="<h2 style='display: inline;' >Theory: Test</h2>">
 
 <QuizBlock 
 quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
@@ -94,6 +94,7 @@ quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-
 quizId="question4.3"
 />
 
+</Spoiler>
 
 <FeedbackBlock 
 formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"
