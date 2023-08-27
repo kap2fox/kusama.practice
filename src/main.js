@@ -89,7 +89,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import QuizBlock from '~/components/QuizBlock.vue'
 import FeedbackBlock from "~/components/FeedbackBlock.vue";
-
+import Spoiler from "~/components/Spoiler.vue";
 
 export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.use(Vuex);
@@ -118,6 +118,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('ChatGPT', ChatGPT)
   Vue.component('QuizBlock', QuizBlock)
   Vue.component('FeedbackBlock', FeedbackBlock)
+  Vue.component('Spoiler', Spoiler)
 
 
 

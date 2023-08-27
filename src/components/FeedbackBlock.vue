@@ -1,9 +1,9 @@
 <template>
   <div>
+    <hr style="margin-top: 1rem"/>
     <hr/>
-    <hr/>
-    <h3 style="margin-bottom: 1rem">You could leave your feedback about this lesson here: </h3>
-    <textarea style="width: 100%; height: 150px" v-model="comment"></textarea>
+    <h2 style="margin-bottom: 10px; margin-top: 10px">You could leave your feedback about this lesson here: </h2>
+    <textarea style="width: 100%; height: 150px; border-width: 2px; padding: 10px;" v-model="comment"></textarea>
 
     <div class="flex-end">
       <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>submitFeedback()">
