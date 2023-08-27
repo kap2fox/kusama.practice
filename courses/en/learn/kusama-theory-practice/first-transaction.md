@@ -81,35 +81,20 @@ Polkadot.js serves as an essential tool in managing and navigating NPoS consensu
 Just like a city hub that is central to urban life, Polkadot.js forms a vital part of the Polkadot ecosystem, as it enables active participation, efficient communication, thereby ensuring a thriving, interconnected city. In our next module we’ll take a closer look at **wallets** you can create to interact with Polkadot through this tool, so stay tuned!
 # Theory: Test
 
-### Question 1
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question3.1"
+/>
 
-What allows to have full control over actions with a cryptocurrency wallet?
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question3.2"
+/>
 
-- Public key
-- Seed phrase
-- Private key
-- Public address
-- Mnemonic phrase
-
-### Question 2
-
-The public address of an account in different networks of Kusama and Polkadot usually differs in its appearance. However, different formats are just different representations of the same public key of your account. Try to find out what the public key of the following address looks like (it is written in the format of the Kusama network):
-
-<LessonCodeWrapper language="json" noLines>
-  GkMByX2YdJa8USs4NJLzqYnzB2mTLotCuHWhs4bF9Ht5eio
-</LessonCodeWrapper>
-
-To do this, you can use the Account Format Transform tool available on Subscan.io.
-
-### Question 3
-
-Each network and parachain produces its blocks at some desired rate. Find out how fast (in sec) the following networks want to produce blocks on the Rococo testnet using the Polkadot.js portal (Network tab):
-
-- Rococo itself
-- Basilisk testnet
-- Bifrost on Rococo
-- Integritee Network on Rococo
-
+<QuizBlock 
+quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Quiz"
+quizId="question3.3"
+/>
 
 # Practice: First Transaction
 
