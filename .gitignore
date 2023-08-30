@@ -1,0 +1,10 @@
+*.log
+.cache
+.DS_Store
+node_modules
+.env
+.env.production
+backup
+.vscode
+.temp
+dist
