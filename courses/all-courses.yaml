@@ -404,7 +404,7 @@
       path: 'token-manage'
       status: in progress
     - id: '9'
-      title: 'Website authorization with polkadot wallet'
+      title: 'Website authorization with Polkadot wallet'
       path: 'polkadot-auth'
       status: in progress
     - id: '10'
@@ -412,15 +412,15 @@
       path: 'ksm'
       status: in progress
     - id: '11'
-      title: 'Karura - the way to swap KSM / CSM'
+      title: 'Karura — the way to swap KSM / CSM'
       path: 'karura'
       status: in progress
     - id: '12'
-      title: 'Basilisk - the way to swap KSX / XRT'
+      title: 'Basilisk — the way to swap KSX / XRT'
       path: 'basilisk'
       status: in progress
     - id: '13'
-      title: 'Moonriver - external bridge'
+      title: 'Moonriver — external bridge'
       path: 'moonriver'
       status: in progress
 
