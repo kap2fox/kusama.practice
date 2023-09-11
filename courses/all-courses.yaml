@@ -406,19 +406,19 @@
     - id: '9'
       title: 'Website authorization with Polkadot wallet'
       path: 'polkadot-auth'
-      status: in progress
+      status: done
     - id: '10'
       title: 'How to buy KSM token?'
       path: 'ksm'
-      status: in progress
+      status: done
     - id: '11'
       title: 'Karura — the way to swap KSM / CSM'
       path: 'karura'
-      status: in progress
+      status: done
     - id: '12'
       title: 'Basilisk — the way to swap KSX / XRT'
       path: 'basilisk'
-      status: in progress
+      status: done
     - id: '13'
       title: 'Moonriver — external bridge'
       path: 'moonriver'
