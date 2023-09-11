@@ -402,7 +402,7 @@
     - id: '8'
       title: 'How to manage your token?'
       path: 'token-manage'
-      status: in progress
+      status: done
     - id: '9'
       title: 'Website authorization with Polkadot wallet'
       path: 'polkadot-auth'
