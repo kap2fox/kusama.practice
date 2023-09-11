@@ -139,7 +139,10 @@ export default {
           this.quizType = data.type
           this.answers = data.answers
           this.id_prefix = this._uid
-        });
+        }).catch((e) => {
+          this.question_parts = ["FAILED TO GET QUESTION"]
+        })
+;
   },
 
 
