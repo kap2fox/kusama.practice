@@ -408,7 +408,7 @@
       path: 'polkadot-auth'
       status: done
     - id: '10'
-      title: 'How to buy KSM token?'
+      title: 'Where KSM is living?'
       path: 'ksm'
       status: done
     - id: '11'
@@ -423,6 +423,36 @@
       title: 'Moonriver — external bridge'
       path: 'moonriver'
       status: in progress
+    - id: '14'
+      title: 'InterPlanetary File System as file storage'
+      path: 'ipfs'
+      status: in progress
+    - id: '15'
+      title: 'Crust - distribute your file in the network'
+      path: 'crust'
+      status: in progress
+    - id: '16'
+      title: 'Crust routine automation'
+      path: 'crust_routine'
+      status: in progress
+    - id: '17'
+      title: 'Robonomics applications'
+      path: 'robonomics'
+      status: in progress
+    - id: '18'
+      title: 'Smart lamp control via Web3.0'
+      path: 'lamp'
+      status: in progress
+    - id: '19'
+      title: 'Spot robodog gives you a data'
+      path: 'spot'
+      status: in progress
+    - id: '20'
+      title: 'Send transaction to your smart home'
+      path: 'has'
+      status: in progress
+
+
 
 - id: '19' 
   title: 'Getting Used to Feecc'
