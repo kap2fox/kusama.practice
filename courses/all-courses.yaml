@@ -422,7 +422,7 @@
     - id: '13'
       title: 'Moonriver — external bridge'
       path: 'moonriver'
-      status: in progress
+      status: done
     - id: '14'
       title: 'InterPlanetary File System as file storage'
       path: 'ipfs'

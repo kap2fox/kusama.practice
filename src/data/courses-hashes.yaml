@@ -756,16 +756,21 @@
   updated/en/learn/kusama-theory-practice/polkadot-auth/: false  
 
 - link: /en/learn/kusama-theory-practice/basilisk/ 
-  hash: 0f89fd53628153ea2327b7ada6b17787 
-  lastUpdate: Mon Sep 11 2023 22:27:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/basilisk/: false  
+  hash: d3a96c9685fdf839c9f144a2e6f3a829 
+  lastUpdate: Thu Sep 14 2023 12:28:52 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/basilisk/: true  
 
 - link: /en/learn/kusama-theory-practice/karura/ 
-  hash: 06bc5aaad49be7e48d9b4fa1b26c35bd 
-  lastUpdate: Mon Sep 11 2023 22:25:59 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/karura/: false  
+  hash: 341bd87efc43cd8bbd7b4ee3804feab0 
+  lastUpdate: Thu Sep 14 2023 12:28:30 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/karura/: true  
 
 - link: /en/learn/kusama-theory-practice/ksm/ 
-  hash: 47bfa75ee7d49e3e05b55666294d11e3 
-  lastUpdate: Mon Sep 11 2023 22:24:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/ksm/: false  
+  hash: 8f375ae8fd01119349b9a707e122560e 
+  lastUpdate: Thu Sep 14 2023 12:28:15 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/ksm/: true  
+
+- link: /en/learn/kusama-theory-practice/moonriver/ 
+  hash: 8a7abe398670f9a08e16ba8710c3867e 
+  lastUpdate: Thu Sep 14 2023 12:42:49 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/moonriver/: true 

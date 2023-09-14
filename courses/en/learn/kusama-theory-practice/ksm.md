@@ -7,6 +7,5 @@ defaultName: Kusama — From Theory to Practice Course
 
 # Video Lecture
 
-https://youtu.be/kRFPAqnciEk
-
+https://youtu.be/jL_xRURgdyo
 
