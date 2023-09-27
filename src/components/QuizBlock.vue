@@ -38,10 +38,28 @@
         <div class="flex-end" v-html="result_icon"/>
         <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendEnterAnswer()">Answer</button>
       </div>
+    </div>
 
-
+    <div v-if="quizType==='correlate'">
+      <div v-for="variant in answers['variants']">
+        <div style="margin-top: 1rem">
+          <span> {{ variant['text']}} -  </span>
+          <select style="padding: 10px; background:#edf2ff; border:none; color: black; width: 100%" v-model="userAnswers[variant.id]">
+            <option v-for="option in answers['options']" :value="option.id" style="padding-left: 5px; padding-right: 5px; float: right; color: black; max-width: 100%px;
+">
+                {{ option.text }}
+              </option>
+          </select>
+<!--          <span>{{ variant.text}}: <input style="font-size: 18px; padding-left: 5px; padding-right: 5px; float: right"/></span>-->
+        </div>
+      </div>
+      <div class="flex-end">
+        <div class="flex-end" v-html="result_icon"/>
+        <button style="margin-top: 1rem; margin-bottom: 1rem; text-align: right" @click="()=>sendEnterAnswer()">Answer</button>
+      </div>
 
     </div>
+
     <hr/>
   </div>
 </template>
