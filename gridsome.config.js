@@ -10,8 +10,8 @@ const fs   = require('fs')
 module.exports = {
   siteName: 'Kusama Practice Course',
   siteDescription: 'Open online course on the everyday usage of Kusama and its parachains, with practical examples and test of knowledge in dapp with the learning management system elements.',
-  siteUrl: 'https://kap2fox.github.io/kusama.practice',
-  pathPrefix: '/kusama.practice',
+  siteUrl: 'https://kusama.practice',
+  pathPrefix: '',
   titleTemplate: '%s',
 
   plugins: [
