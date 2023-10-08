@@ -29,13 +29,13 @@ export default {
           name: 'guide',
           id: 1
         },
-        {
-          name: 'launch simulation',
-          id: 2
-        },
+        // {
+        //   name: 'launch simulation',
+        //   id: 2
+        // },
         {
           name: 'real-life setup',
-          id: 3
+          id: 2
         }
       ],
     }

@@ -1,9 +1,9 @@
 <template>
-  <section class="lesson-reaction" :class="{'lesson-reaction__withForm': $store.state.currentReaction}">
-    <div class="container__wide grid-4">
-      <LessonReactionItem v-for="reaction in reactions" :key="reaction.id" :text="reaction.text" :imgSrc="reaction.img" :lessonTitle="lessonTitle" />
-    </div>
-  </section>
+<!--  <section class="lesson-reaction" :class="{'lesson-reaction__withForm': $store.state.currentReaction}">-->
+<!--    <div class="container__wide grid-4">-->
+<!--      <LessonReactionItem v-for="reaction in reactions" :key="reaction.id" :text="reaction.text" :imgSrc="reaction.img" :lessonTitle="lessonTitle" />-->
+<!--    </div>-->
+<!--  </section>-->
 </template>
 
 <script>

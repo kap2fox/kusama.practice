@@ -1,70 +1,70 @@
 <template>
-  <div class="lesson-reaction-form__wrapper">
+<!--  <div class="lesson-reaction-form__wrapper">-->
 
-    <div class="lesson-reaction-form__header">
-      <div>
-        <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">
-        <!-- <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/> -->
-        </span>
-        <h3>{{ $store.state.currentReaction }}? Tell us more</h3>
-      </div>
-      <span tabindex="0" class="lesson-reaction__close" @click="$emit('closeForm')">
-        <font-awesome-icon icon="fa-solid fa-xmark" aria-hidden="true"/>
-      </span>
-    </div>
+<!--    <div class="lesson-reaction-form__header">-->
+<!--      <div>-->
+<!--        <span class="lesson-reaction__check" v-if="$store.state.currentReaction === text">-->
+<!--        &lt;!&ndash; <font-awesome-icon icon="fa-solid fa-check" aria-hidden="true"/> &ndash;&gt;-->
+<!--        </span>-->
+<!--        <h3>{{ $store.state.currentReaction }}? Tell us more</h3>-->
+<!--      </div>-->
+<!--      <span tabindex="0" class="lesson-reaction__close" @click="$emit('closeForm')">-->
+<!--        <font-awesome-icon icon="fa-solid fa-xmark" aria-hidden="true"/>-->
+<!--      </span>-->
+<!--    </div>-->
 
-    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :captchaID="captcha" class="lesson-reaction-form__form" :class="result">
+<!--    <gsp-form v-if="result !== 'success' && $store.state.currentReaction === text" :gscriptID="gscript" :captchaID="captcha" class="lesson-reaction-form__form" :class="result">-->
 
-      <div>
+<!--      <div>-->
 
-        <input type="email" placeholder="Your email" class="container__full" required data-gsp-name="Email"
-          :data-gsp-data="email" v-model="email" />
+<!--        <input type="email" placeholder="Your email" class="container__full" required data-gsp-name="Email"-->
+<!--          :data-gsp-data="email" v-model="email" />-->
 
-        <textarea type="text" placeholder="Your comment" class="container__full"  data-gsp-name="Comment"
-          :data-gsp-data="comment" v-model="comment" />
+<!--        <textarea type="text" placeholder="Your comment" class="container__full"  data-gsp-name="Comment"-->
+<!--          :data-gsp-data="comment" v-model="comment" />-->
 
-        <input       
-          type="hidden" 
-          placeholder="location" 
-          data-gsp-name="Location" 
-          :data-gsp-data="location" 
-          v-model="location"
-        />
+<!--        <input       -->
+<!--          type="hidden" -->
+<!--          placeholder="location" -->
+<!--          data-gsp-name="Location" -->
+<!--          :data-gsp-data="location" -->
+<!--          v-model="location"-->
+<!--        />-->
 
-        <input       
-          type="hidden" 
-          placeholder="reaction" 
-          data-gsp-name="Reaction" 
-          :data-gsp-data="$store.state.currentReaction" 
-          v-model="$store.state.currentReaction"
-        />
+<!--        <input       -->
+<!--          type="hidden" -->
+<!--          placeholder="reaction" -->
+<!--          data-gsp-name="Reaction" -->
+<!--          :data-gsp-data="$store.state.currentReaction" -->
+<!--          v-model="$store.state.currentReaction"-->
+<!--        />-->
 
-        <input       
-          type="hidden" 
-          placeholder="lessonTitle" 
-          data-gsp-name="Lesson" 
-          :data-gsp-data="lessonTitle" 
-          v-model="lessonTitle"
-        />
+<!--        <input       -->
+<!--          type="hidden" -->
+<!--          placeholder="lessonTitle" -->
+<!--          data-gsp-name="Lesson" -->
+<!--          :data-gsp-data="lessonTitle" -->
+<!--          v-model="lessonTitle"-->
+<!--        />-->
 
-        <button class="lesson-reaction-form__btn btn-blue" @click="form" :disabled="result === 'wait'">
-          <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'init' || result === 'error'">
-            <span>Send</span>
-          </div>
-          <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'wait'">
-            <Loader/>
-            <span>Sending your info...</span>
-          </div>
-        </button>
-      </div>
-    </gsp-form>
+<!--        <button class="lesson-reaction-form__btn btn-blue" @click="form" :disabled="result === 'wait'">-->
+<!--          <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'init' || result === 'error'">-->
+<!--            <span>Send</span>-->
+<!--          </div>-->
+<!--          <div class="lesson-reaction-form__btn-wrapper" v-if="result === 'wait'">-->
+<!--            <Loader/>-->
+<!--            <span>Sending your info...</span>-->
+<!--          </div>-->
+<!--        </button>-->
+<!--      </div>-->
+<!--    </gsp-form>-->
 
-    <div class="lesson-reaction-form__success" v-if="result === 'success'">
-      <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true"/>
-      <div>Thanks,<br/> we’ll keep in touch!</div>
-    </div>
+<!--    <div class="lesson-reaction-form__success" v-if="result === 'success'">-->
+<!--      <font-awesome-icon icon="fa-solid fa-envelope" aria-hidden="true"/>-->
+<!--      <div>Thanks,<br/> we’ll keep in touch!</div>-->
+<!--    </div>-->
 
-  </div>
+<!--  </div>-->
 </template>
 
 <script>

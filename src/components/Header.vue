@@ -4,23 +4,22 @@
 
         <div class="header-logo__wrapper">
 
-            <g-link v-if="$store.state.showHeader" class="logo header__section" to="/"><g-image :immediate="true" src="@/assets/images/logo.svg" /></g-link>
+<!--            <g-link v-if="$store.state.showHeader" class="logo header__section" to="/"><g-image :immediate="true" src="@/assets/images/logo.svg" /></g-link>-->
 
         </div>
 
         <nav id="nav" class="nav header__section">
             <g-link class="nav__link" :class="{'active': $route.path.includes('learn')}" to="/learn/">{{$ts('Learn')}}</g-link>
             <!-- <g-link class="nav__link" :class="{'active': $route.path.includes('playground')}" to="/playground/">{{$ts('Playground')}}</g-link> -->
-            <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Blockchain certificate')}}</g-link>
-             <g-link class="nav__link"  to="https://robonomics.network/">{{$ts('Robonomics website')}}</g-link>
+<!--            <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Blockchain certificate')}}</g-link>-->
         </nav>
 
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
         <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
 
-        <div class="header-right expand header__section" tabindex="0">
-            <LanguageSwitcher/> 
-        </div>
+<!--        <div class="header-right expand header__section" tabindex="0">-->
+<!--            <LanguageSwitcher/> -->
+<!--        </div>-->
 
       </div>
     </header>

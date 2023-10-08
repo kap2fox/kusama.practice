@@ -52,7 +52,7 @@
 
     </section>
 
-    <QuestionIcon :templateTitle="'https://github.com/airalab/robonomics.academy/issues/new?' + ghIssueTitle"/>
+    <QuestionIcon :templateTitle="'https://github.com/kap2fox/kusama.practice/issues/new?' + ghIssueTitle"/>
 
     <div class="popup popup-js" :class="{'active': $store.state.showImagePopup}">
       <ImagePopup />
@@ -124,7 +124,7 @@
         var b = [
           {
             to: '/',
-            text: 'Robonomics Academy'
+            text: 'Kusama Academy'
           },
           {
             to: 'learn',
@@ -142,7 +142,7 @@
 
     methods: {
       getTitleForIssue() {
-        const url = new URL('https://github.com/airalab/robonomics.academy/issues/new?assignees=&labels=documentation&template=lesson-issue.md&');
+        const url = new URL('https://github.com/kap2fox/kusama.practice/issues/new?assignees=&labels=documentation&template=lesson-issue.md&');
         const params = new URLSearchParams(url.search);
         params.append('title', `issue for lesson - ${this.title}(${this.$locale})`);
         this.ghIssueTitle = params.toString()

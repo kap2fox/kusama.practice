@@ -1,49 +1,49 @@
 <template>
   <footer class="footer footer__section" :class="{'footer-full': full}">
-    <div class="footer__container footer__decor footer__decor-left">
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-    </div>
-    <div class="footer__container footer__subscribe">
-      <h2>{{ $ts('Get Notifications & Updates') }}</h2>
-      <gsp-form :gscriptID="gscript" :captchaID="captcha" :class="result">
+<!--    <div class="footer__container footer__decor footer__decor-left">-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--    </div>-->
+<!--    <div class="footer__container footer__subscribe">-->
+<!--      <h2>{{ $ts('Get Notifications & Updates') }}</h2>-->
+<!--      <gsp-form :gscriptID="gscript" :captchaID="captcha" :class="result">-->
 
-        <div class="container__narrow">
+<!--        <div class="container__narrow">-->
 
-          <input type="email" :placeholder="$ts('Your email')" class="container__full" required data-gsp-name="email"
-            :data-gsp-data="email" v-model="email" />
+<!--          <input type="email" :placeholder="$ts('Your email')" class="container__full" required data-gsp-name="email"-->
+<!--            :data-gsp-data="email" v-model="email" />-->
 
-          <input type="hidden" data-gsp-name="tags" data-gsp-data="academy news" />
-          <input       
-            type="hidden" 
-            placeholder="location" 
-            data-gsp-name="location" 
-            :data-gsp-data="location" 
-            v-model="location"
-          />
+<!--          <input type="hidden" data-gsp-name="tags" data-gsp-data="academy news" />-->
+<!--          <input       -->
+<!--            type="hidden" -->
+<!--            placeholder="location" -->
+<!--            data-gsp-name="location" -->
+<!--            :data-gsp-data="location" -->
+<!--            v-model="location"-->
+<!--          />-->
 
-          <button @click="form" :disabled="result === 'wait'">
-            <span v-if="result === 'init' || result === 'error'">{{$ts('Submit')}}</span>
-            <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>
-            <span v-if="result === 'success'">{{$ts('You are in the list')}}</span>
-            <Loader v-if="result === 'wait'"/>
-          </button>
-          <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team')}}.</p>
-        </div>
-      </gsp-form>
-    </div>
-    <div class="footer__container footer__decor footer__decor-right">
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-      <span class="footer__line"></span>
-    </div>
+<!--          <button @click="form" :disabled="result === 'wait'">-->
+<!--            <span v-if="result === 'init' || result === 'error'">{{$ts('Submit')}}</span>-->
+<!--            <span v-if="result === 'wait'">{{$ts('Sending your request')}}</span>-->
+<!--            <span v-if="result === 'success'">{{$ts('You are in the list')}}</span>-->
+<!--            <Loader v-if="result === 'wait'"/>-->
+<!--          </button>-->
+<!--          <p>{{$ts('By submitting this form you agree to receive emails with notifications and updates from the Robonomics Network team')}}.</p>-->
+<!--        </div>-->
+<!--      </gsp-form>-->
+<!--    </div>-->
+<!--    <div class="footer__container footer__decor footer__decor-right">-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--      <span class="footer__line"></span>-->
+<!--    </div>-->
   </footer>
 </template>
 

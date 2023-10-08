@@ -43,7 +43,7 @@
 </template>
 
 <page-query>
-  
+
   query {
 
     courses: allCourse {

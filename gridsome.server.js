@@ -44,6 +44,9 @@ const generateImage = (output, arrayPath, options) => {
         html: generateHtml(arrayPath, options)
       }).then(() => {
         console.log('Image was created successfully!')
+        console.log(output)
+        console.log(options)
+        console.log(arrayPath)
       }).catch(e => console.log(e.message))
     } else {
       console.log(`The image ${output.split('/')[output.split('/').length-1]} already exists!`)
