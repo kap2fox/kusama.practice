@@ -1,4 +1,39 @@
 - id: '1'
+  title: 'Introduction to the ideas of Robonomics'
+  path: 'introduction-course'
+  level: 3
+  tags: ['course']
+  filters: ['']
+  progress: done
+  author: 'Fingerling42'
+  published: false
+  lessons:
+    - id: '0'
+      title: 'Introduction to the ideas of Robonomics'
+      path: 'overview'
+      status: done
+    - id: '1'
+      title: 'Broadcasting Through the Black Mirror'
+      path: 'broadcasting-through-the-black-mirror'
+      status: done
+    - id: '2'
+      title: 'At the Intersection of Cybernetics and Economics'
+      path: 'at-the-intersection-of-cybernetics-and-economics'
+      status: done
+    - id: '3'
+      title: 'Polkadot Ecosystem for Home IoT Infrastructure'
+      path: 'polkadot-ecosystem-for-home-iot-infrastructure'
+      status: done
+    - id: '4'
+      title: 'Robonomics Architecture'
+      path: 'robonomics-architecture'
+      status: done
+    - id: '5'
+      title: 'IoT Subscriptions Using Robonomics Parachain'
+      path: 'iot-subscriptions-using-robonomics-parachain'
+      status: done
+
+- id: '2'
   title: 'Kusama — From Theory to Practice Course'
   path: 'kusama-theory-practice'
   level: 1
