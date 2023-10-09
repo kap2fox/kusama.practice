@@ -13,6 +13,40 @@ module.exports = {
   siteUrl: 'https://kap2fox.github.io/kusama.practice',
   pathPrefix: '',
   titleTemplate: '%s',
+    configureWebpack: {
+        module: {
+            rules: [
+                {
+                    test: /\.js$/,
+                    // test: /node_modules[/\\]@polkadot*.js$/,
+                    loader: require.resolve('@open-wc/webpack-import-meta-loader'),
+                    // loader: '@open-wc/webpack-import-meta-loader',
+                    exclude: /\.vue$/,
+                },
+
+                {
+                    test: /\.m?js$/,
+                    include: [/node_modules[/\\|]@polkadot/i, /node_modules[/\\|]@noble/i],
+                    // exclude: /(node_modules|bower_components)/,
+                    use: {
+                        loader: 'babel-loader',
+                        options: {
+                            presets: [
+                                '@babel/preset-env',
+                            ],
+                            plugins: [
+                                "@babel/plugin-proposal-private-methods",
+                                "@babel/plugin-proposal-class-properties",
+                                '@babel/plugin-proposal-object-rest-spread',
+                            ]
+                        }
+                    }
+                },
+
+
+            ]
+        }
+    },
 
   plugins: [
     {

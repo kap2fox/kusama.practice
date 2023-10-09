@@ -88,6 +88,8 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 import QuizBlock from '~/components/QuizBlock.vue'
+import AccountManager from '~/components/practice/AccountManager.vue'
+import PracticeChecker from '~/components/practice/PracticeChecker.vue'
 import FeedbackBlock from "~/components/FeedbackBlock.vue";
 import Spoiler from "~/components/Spoiler.vue";
 
@@ -117,6 +119,8 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   Vue.component('RoboAcademyTerminal', RoboAcademyTerminal)
   Vue.component('ChatGPT', ChatGPT)
   Vue.component('QuizBlock', QuizBlock)
+  Vue.component('AccountManager', AccountManager)
+  Vue.component('PracticeChecker', PracticeChecker)
   Vue.component('FeedbackBlock', FeedbackBlock)
   Vue.component('Spoiler', Spoiler)
 

@@ -124,6 +124,10 @@ and specify any amount of ROC tokens. The address will change its format to Roco
 
 6. Press the `Make Transfer` button and confirm the transaction in your wallet application.
 
+<AccountManager>
+    <PracticeChecker practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task" taskId="send_roc_tx"></PracticeChecker>
+</AccountManager>
+
 </Spoiler>
 
 <FeedbackBlock 

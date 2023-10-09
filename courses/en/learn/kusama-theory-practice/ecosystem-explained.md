@@ -157,6 +157,10 @@ In any case, almost all wallet applications during the creation phase will ask y
 2. Create a wallet. The application will ask you to create a strong password for it, which will be used for quick access to the wallet from this application.
 3. Securely write down and save the seed phrase for your wallet.
 
+<AccountManager>
+    <PracticeChecker practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task" taskId="create_wallet"></PracticeChecker>
+</AccountManager>
+
 </Spoiler>
 
 <FeedbackBlock 
