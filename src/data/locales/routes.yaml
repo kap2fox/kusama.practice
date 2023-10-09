@@ -1,5 +1,5 @@
 - path: '/'
-  component: './src/pages/Index.vue'
+  component: './src/pages/Learn.vue'
   typename: 'page'
 - path: '/certificates/'
   component: './src/pages/Certificates.vue'
