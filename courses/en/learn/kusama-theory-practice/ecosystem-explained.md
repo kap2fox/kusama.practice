@@ -1,5 +1,5 @@
 ---
-title: How Polkadot ecosystem works?
+title: Polkadot & Kusama structure
 description: A course for those who see the Polkadot and Kusama ecosystem for the first time.
 metaOptions: [Learn, Kusama — From Theory to Practice Course]
 defaultName: Kusama — From Theory to Practice Course
@@ -7,31 +7,29 @@ defaultName: Kusama — From Theory to Practice Course
 
 # Video Lecture
 
-https://youtu.be/n-l-A0_JAJc
+https://youtu.be/n0BuV3-PPn4
 
-# Lesson 2. Polkadot & Kusama structure
+<Spoiler title="<h2 style='display: inline;' >Lesson 2. Polkadot & Kusama structure</h2>">
 
-## **Introduction**
+# **Introduction**
 
-Now that we've covered what the Polkadot ecosystem is, it's time to take a closer look at how it functions and provides security and interoperability to all the parachains on the network.
+Now that we have reviewed the core of the Polkadot ecosystem, we can delve into its complex mechanics and its contribution to enhancing security and connectivity of the parachains within the network.
 
-Just as understanding the anatomy of a human body helps us understand its functions, grasping the structure of Polkadot and Kusama will help us comprehend how they operate. Fasten your seatbelts, we starting!
+Just as understanding the anatomy of a human body helps us understand its functions, grasping the structure of Polkadot ecosystem will help us comprehend how they operate. To get a better understanding of this, let's picture Polkadot as a flexible futuristic city.
 
-## **Polkadot Ecosystem as Future City**
+# **Polkadot Ecosystem as Future City**
 
-Diving deep to a Polkadot ecosystem to better understand how it operates, let's picture it as a flexible futuristic city.
+## Relay Chain
 
-### Relay Chain
-
-The heart of our futuristic city. It is a main highway that keeps everything in Polkadot connected and running smoothly. The Relay Chain is responsible for the network's shared security, consensus, and cross-chain interoperability.
+The heart of our city. It is a main highway that keeps everything in Polkadot connected and running smoothly. The Relay Chain is responsible for the network's shared security, consensus, and cross-chain interoperability.
 
 Technically speaking, Relay Chain is a modular blockchain, built with [Substrate](https://www.parity.io/blog/how-to-build-your-own-blockchain-using-parity-substrate/) - a framework, which was created especially for multichain future. In Polkadot it serves two main functions: providing security for the network and enabling cross-chain interoperability.
 
-| Security | Interoperability |
-| --- | --- |
-| **Validators** stake their tokens (DOT or KSM)<br/> as collateral to validate proofs from **collators**,<br/> participate in the production of new blocks,<br/> and confirm the validity of transactions. <br/>This collective security model allows all <br/>**parachains** and **parathreads** to benefit <br/>from the security of the Relay Chain,<br/> reducing the risk of attacks<br/> and enhancing trust in the network. | https://wiki.polkadot.network/docs/learn-xcm-transport <br/>protocol provides cross-chain interoperability <br/>in Relay Chain, while the more advanced<br/> https://wiki.polkadot.network/docs/learn-xcm is still<br/> under implementation.<br/> HRMP allowing parachains to exchange messages directly <br/>with each other via the Relay Chain.  |
+| Security | Interoperability                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| --- |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Validators** stake their tokens (DOT or KSM)<br/> as collateral to validate proofs from **collators**,<br/> participate in the production of new blocks,<br/> and confirm the validity of transactions. <br/>This collective security model allows all <br/>**parachains** and **parathreads** to benefit <br/>from the security of the Relay Chain,<br/> reducing the risk of attacks<br/> and enhancing trust in the network. | [Horizontal Relay-routed Message Passing (HRMP)](https://wiki.polkadot.network/docs/learn-xcm-transport) <br/>protocol provides cross-chain interoperability <br/>in Relay Chain, while the more advanced<br/> [Cross-Chain Message Passing protocol (XCMP)](https://wiki.polkadot.network/docs/learn-xcm) is still<br/> under implementation.<br/> HRMP allowing parachains to exchange messages<br/> directly with each other via the Relay Chain. |
 
-**Validators** can be thought of as the police officers of this city. Their job is to ensure the legitimacy of all transactions occurring on the network. They validate proofs (summaries or representations of the block and its transactions) from collators (those who collect parachain data). By doing so, they help secure the Relay Chain and all the chains connected to it.
+Validators can be thought of as the police officers of this city. Their job is to ensure the legitimacy of all transactions occurring on the network. They validate proofs (summaries or representations of the block and its transactions) from collators (those who collect parachain data). By doing so, they help secure the Relay Chain and all the chains connected to it.
 
 The network's participants nominate validators with their tokens, and the individuals with the most votes become validators. This system ensures that the network is fair and not controlled by a selected few people.
 
@@ -39,21 +37,21 @@ The network's participants nominate validators with their tokens, and the indivi
 
 ### **Parachains**
 
-Branching off the main highway, we have the **Parachains**. Imagine them like unique neighborhoods, each with their own vibes and specialties. Parachains benefit from the security and interoperability of the Relay Chain, but they can also do their own thing -  they could be a residential area, a business district, a park or a shopping center that serve different purposes. They also can have their own tokens, rules, handle their own transactions and even smart-contracts.
+Branching off the main highway, we have the parachains. Imagine them like unique neighborhoods, each with their own vibes and specialties. Parachains benefit from the security and interoperability of the Relay Chain, but they can also do their own thing -  they could be a residential area, a business district, a park or a shopping center that serve different purposes. They also can have their own tokens, rules, handle their own transactions and even smart-contracts.
 
-Each parachain connected to the Relay Chain via special nodes called **validators.** They are responsible for validating the information produced by the collators of each parachain. Once validated, these transactions are included in the blockchain.
+Each parachain **connected to the Relay Chain via special nodes called validators**. They are responsible for validating the information produced by the collators of each parachain. Once validated, these transactions are included in the blockchain.
 
 ### **Parathreads**
 
-**Parathreads** are like pop-up stores or food trucks. They are similar to parachains, but they don't have permanent slots on the Relay Chain. They basically rent space when they need it, making them a flexible and cost-effective option for less active blockchains.
+Parathreads are like pop-up stores or food trucks. They are similar to parachains, but they don't have permanent slots on the Relay Chain. They basically rent space when they need it, making them a flexible and cost-effective option for less active blockchains.
 
-Parathreads are a proposed feature for the Polkadot network and, if implemented, would function similarly to parachains but with a key difference. Rather than holding a permanent slot in the Relay Chain, parathreads would operate on a **pay-as-you-go** basis, connecting to the Relay Chain as and when needed. This proposed model would be a cost-effective option for projects that may not require continuous connectivity to the network.
+Parathreads are a proposed feature for the Polkadot network and, if implemented, would function similarly to parachains but with a key difference. Rather than holding a permanent slot in the Relay Chain, parathreads would operate on a pay-as-you-go basis, connecting to the Relay Chain as and when needed. This proposed model would be a cost-effective option for projects that may not require continuous connectivity to the network.
 
 In theory, just like parachains, parathreads would have their own tokens and specific functionalities. They would also use collators to gather transactions and produce proofs for the validators on the Relay Chain. However, they would only pay for the specific times they are included in the Relay Chain.
 
 ## **Bridges: Connecting Different Networks**
 
-Not every blockchain can become a parachain of Polkadot or Kusama network. To be a part of it, it must meet two specific criteria:
+Not every blockchain can become a parachain of Polkadot or Kusama network. To be a part of it, blockchains must meet two specific criteria:
 
 - **Be substrate-based or be compatible.** Polkadot and Kusama are built on a Substrate framework. To become a parachain, the blockchain must also be built on Substrate or at least be compatible with it.
 - **Adopt a shared security model.** Potential Parachains need to adopt Polkadot or Kusama's shared security model, which means they don't need their own set of validators or miners to secure their network. Instead, they rely on Polkadot or Kusama's validators.
@@ -64,7 +62,7 @@ In our future city, we can imagine bridges… as actual bridges allowing a free 
 
 Bridges make it possible for such external networks to interact and communicate with Polkadot or Kusama network without having to become parachains.
 
-## **DOT and KSM: Governance, Staking, and Bonding**
+## **DOT and KSM: Governance, Staking, & Bonding**
 
 ### **Governance**
 
@@ -72,8 +70,8 @@ Owning DOT and KSM is equals to having voting tickets in our city council. If yo
 
 With recent updates, Polkadot gone even more democratic with its [OpenGov](https://polkadot.network/features/opengov/) model, which is giving more decision-making power to average DOT or KSM token holders. A few key points about how it works:
 
-1. In the network there are no first-class citizens, and no single authority or group makes decisions. All DOT or KSM holders can make decisions and changes to the network to its **Treasury** expenditures.
-2. The new expert body of network, which has replaced council, the **Fellowship**, provides technical expertise but has no hard power over the network. It can declare some proposals on bug fixes or identifying malicious ones.
+1. In the network there are no first-class citizens, and no single authority or group makes decisions. All DOT or KSM holders can make decisions and changes to the network to its treasury expenditures.
+2. The new expert body of network, which has replaced council, the fellowship, provides technical expertise but has no hard power over the network. It can declare some proposals on bug fixes or identifying malicious ones.
 3. Unique mechanism allows for multiple referenda to run simultaneously, that leads to faster decision-making without compromising security.
 4. The main network and all connected parachains are able to upgrade without hard forks, almost seamlessly.
 
@@ -87,30 +85,23 @@ This is what you do when you want to add a new building (or parachain) to our ci
 
 In addition to bonding tokens for parachain slots, DOT and KSM holders can also bond their tokens for auctions, where they can participate in the auction of other parachain slots. This is similar to buying a plot of land with a building already on it. The tokens are locked up for a certain period, and if the auction is unsuccessful, the tokens are returned. In the next lesson, we will explore the mechanisms of validators and collators in more detail, and how they work together to secure the network and enable cross-chain communication.
 
-### Kusama
+## Kusama network
 
-If the Polkadot is a future city, **Kusama** is its wild, experimental cousin. It’s like the Burning Man festival to Polkadot’s New York City. Think of it as the fast-and-loose, less polished version of Polkadot. 
+Kusama can be envisioned as the Burning Man festival to Polkadot's polished NYC. As explained in lesson 1, Kusama shares the vast majority of Polkadot’s underlying technologies, including all the network components, such as parachains connected to the Relay Chain, NPoS consensus, on-chain governance, etc. but with different purposes:
 
-Both Polkadot and Kusama share the same core architecture: a central Relay Chain, Parachains, Parathreads, and Bridges, as well as the principles of interoperability, scalability, and shared security. However, while being architecturally similar, they cater to different needs:
+- **Pre-production testing field**
 
-- **Kusama** is the experimental sandbox, where developers can test new projects in a real environment before applying them to Polkadot. It’s more risk tolerant and better for innovative projects.
-- **Polkadot** is the stable network, designed for secure, high value transactions. It prioritizes security and stability.
+Polkadot is the primary network for enterprise-level applications and transactions that require security and stability, while Kusama thrives on playful experimentation. Kusama serves as a playground where developers can test new projects and technologies in a fully decentralized environment before implementing them on Polkadot. It can be thought of as somewhere between a "mainnet" and a "testnet".
 
-### **Conclusion**
+- **Nurturing new projects**
 
-Let’s wrap up key points of what we have learned today:
+Similar to how the Burning Man festival nurtures emerging artists and performers, Kusama provides a nurturing environment for newer, less-established teams. Kusama has a lower barrier to entry for developer teams that wish to deploy as a parachain, and low bond requirements for validators and parachains. These teams can iterate on their technology and business models, deploying parachains on Kusama's lower-stakes platform (minimum stake for Kusama is 0.1 KSM, while it is 250 DOT for Polkadot). This approach enables them to build a starting user base and establish their presence within the community. As these projects mature, they can seamlessly transition to Polkadot, where they can further thrive as established businesses.
 
-- **Polkadot** and **Kusama** are multichain networks with a central Relay Chain, Parachains, Parathreads, and Bridges.
-- While architecturally similar, they serve different purposes: Polkadot is a stable network for high-value transactions, while Kusama is an experimental sandbox for innovative projects.
-- The **Relay Chain** provides shared security and enables cross-chain interoperability.
-- **Parachains** are independent blockchains that run in parallel to the Relay Chain, while **Parathreads** are pay-as-you-go parachains.
-- **Bridges** connect external networks to Polkadot or Kusama.
-- **DOT** and **KSM** tokens are used for governance, staking, and bonding.
-- **Validators** secure the network, while **collators** gather transactions and produce proofs for validators.
-- **Governance** in Polkadot is democratic, and token holders can vote on network upgrades and approve projects.
-- **Staking** and **bonding** tokens earn rewards and secure slots for parachains.
+- **Innovations and experiments**
 
-We hope this overview gave you a clearer picture of how Polkadot and Kusama networks function. In our upcoming lessons, we’ll take a closer look at their mechanisms. Stay tuned, until next time!
+Kusama is also a platform for pioneering governance models, incentive structures, and even DAOs. The network becomes a canvas for ambitious experiments. The Kusama Treasury acts as a capital base for testing novel incentive systems, while the engaged community, driven by their passion for exploration, contributes to the development of cutting-edge governance mechanisms.
+
+</Spoiler>
 
 <Spoiler title="<h2 style='display: inline;' >Theory: Test</h2>">
 

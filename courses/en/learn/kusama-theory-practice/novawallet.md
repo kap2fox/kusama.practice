@@ -1,5 +1,5 @@
 ---
-title: Crypto in your mobile — NovaWallet
+title: Polkadot in your hand
 description: A course for those who see the Polkadot and Kusama ecosystem for the first time.
 metaOptions: [Learn, Kusama — From Theory to Practice Course]
 defaultName: Kusama — From Theory to Practice Course
@@ -7,65 +7,108 @@ defaultName: Kusama — From Theory to Practice Course
 
 # Video Lecture
 
-https://youtu.be/uku-pez8XGU
+https://youtu.be/Qdat2h2nIDY
 
-# Lesson 6. Nova Wallet. All you need in one hand
+<Spoiler title="<h2 style='display: inline;' >Lesson 6. Polkadot in your hand</h2>">
 
-## Introduction
+# Introduction
 
-In the previous lessons, we explored two suitable wallets for the Polkadot ecosystem, both intended for use on your PC. But what if you need a wallet on your phone to manage your assets on the go? That's where Nova Wallet fits perfectly. Let's explore this next-gen wallet for the Polkadot/Kusama ecosystem.
+In the previous lessons, we explored two suitable wallets for the Polkadot ecosystem, both intended for use on your PC. But what if you need a wallet on your phone to manage your assets on the go? That's where **Nova Wallet** fits perfectly. But it also can do a few more things. Let's explore this next-gen wallet for the Polkadot/Kusama ecosystem.
 
-## Features and functionality
+# Enhancing interaction with Polkadot governance system
 
-No need to remind you that web3 world is not only about sending and receiving crypto. As well as the previous two wallets, Nova provides a comprehensive toolkit on your phone that allows you to explore and participate in over 63 networks, offering a wide range of functions, including:
+## OpenGov concept
 
-1. **Staking**
+In the second lesson of our course, we briefly introduced you to Polkadot's new community-driven governance model with no central authority - OpenGov. Let's dive further in this concept:
 
-Nova Wallet provides two main ways to stake **DOT** or **KSM** tokens: self-delegation or via a **[Nomination Pool](https://novawalletapp.medium.com/polkadot-staking-nomination-pools-are-live-7b3284232c66)**.
+July 2020**.** Polkadot launched the first governance model called **Governance V1**, which at the time was already the most advanced and decentralized democracy system. It included three main components:
+
+1. **The Technical Committee** - a technocratic committee to manage upgrade timelines.
+2. **The Council** - an approval-voted, elected executive "government", representing the passive stakeholders of Polkadot and/or Kusama, to manage parameters, admin, spending proposals and vetoing dangerous or malicious referenda.
+3. **The Public** - all token holders.
+
+Over the first few years of operation, Governance V1 ensured the appropriate usage of treasury funds and enabled timely upgrades and fixes. However, like most early technologies, protocols must evolve as they mature to improve their shortcomings and keep up with modern advancements. 
+
+Important to know, in Governance V1, all referenda carried the same weight as only one referendum could be voted on at a time (except for emergency proposals), and the voting period could last multiple weeks. Also, an alternating voting timetable allowed voters to vote either for a public referendum or a council motion every 28 days. This resulted in the system favoring careful consideration of very few proposals instead of broad consideration of many.
+
+In July 2022, the OpenGov (or Governance V2) was launched as the new governance system that replaced Governance V1. It has become even more decentralized, open, efficient, and future-facing than the previous one. Here's why:
+
+- **The Technical Committee and the Council were** **removed**. All decision-making power came to the community through a referenda system. Instead, the decentralized Polkadot Fellowship became the new technical expertise, which, in fact, does not have hard power over the network;
+- **A multirole delegation system appeared**. If you do not count yourself as the bright mind of the crypto world, you can follow some network member and share your vote with him. One for staking, one for treasury, another for technical moments. You got the idea;
+- **Multiple parallel referenda tracks**. The community can vote on thousands of proposals at any time.
+
+OpenGov changed how the practical means of day-to-day decisions are made, making the repercussions of referenda better scoped and agile to increase the number of collective decisions the system can make at any given time. Polkadot switched its governance system to bring the next generation of decentralized, secure, and democratic governance to ecosystem.
+
+## Polkassembly
+
+The main platform for implementing OpenGov in the Polkadot and Kusama ecosystems is the **[Polkassembly](https://polkassembly.io/)**, supported by Web3 foundation and Polkadot & Kusama treasury. Polkassembly provides a place for ecosystem users to participate in Polkadot governance by proposing and voting on public referenda. It offers information on current referenda, latest proposals, motions, treasury proposals, tips, bounties, and more.
+
+Polkadot OpenGov transferred all responsibilities of the Council to the public through a direct democracy voting system. Users can browse proposals made on-chain, discuss them with the community, and vote directly from the platform. Polkassembly implements governance in all Substrate-compatible networks, including:
+
+- **Polkadot & Parachains;**
+- **Kusama & Parachains;**
+- **Solo Chains;**
+- **Test Chains.**
+
+<robo-academy-note type="note">
+As for the august 23 OpenGov is available on a few networks: Polkadot, Kusama, Moonbeam. The rest are pulling up soon.
+</robo-academy-note> 
+
+
+To participate in referenda on a specific network, simply select that network on the main platform page via a pop-up menu or its address, such as [polkadot.polkassembly.io](http://polkadot.polkassembly.io/) or [kusama.polkassembly.io](http://kusama.polkassembly.io/).
+
+Each network has its own fund, presented on Polkassembly, which receives cryptocurrency collected through a portion of block production rewards, transaction fees, slashing, staking inefficiencies, and more. These funds are distributed through treasury proposals, which are subject to governance. The current default spend period is 24 days. If the Treasury ends a spend period without fully using its funds, it will suffer a burn of a portion of its funds.
+
+## Governance through Nova Browser
+
+Nova Wallet makes easier than ever before to observe, participate, and delegate in Polkadot OpenGov through mobile device. 
+
+Nova has his own built-in browser which provides quick access to various web pages while connecting your Nova Wallet accounts to interact with Polkassembly. The catalogue is also contains different decentralized applications within the Polkadot ecosystem, such NFT, Staking, Bridges, Crowdloans, **decentralized exchange (DEX)**, Utilities (like Polkadot.js) and more. Through this browser you can participate in Polkadot governance on Polkassembly, with your Nova account connected to it. Sounds very user-friendly!
+
+### InApp governance
+
+Nova also provides users the ability to participate in governance processes, such as voting on referenda, extremely simple directly in the App. In the Vote section, you can check all ongoing referenda and yay/nay it with your tokens. You even have the option to delegate your voting power to another account, voting alongside it!
+
+You can use Nova Wallet to easily contribute to Polkadot and Kusama crowdloans in a non-custodial way, which one we strongly recommend you to do it, and not via a **Centralized Exchange (CEX)**.
+
+# **Staking in Nova**
+
+Nova Wallet provides two main ways to stake DOT or KSM tokens: self-delegation or via a **[Nomination Pool](https://novawalletapp.medium.com/polkadot-staking-nomination-pools-are-live-7b3284232c66)**.
 
 "What is the difference?" you may ask. Well, in self-delegation, you personally control which Validator nodes your tokens are staked with, while nomination pools allow users to pool their funds together and nominate/stake as a group, greatly reducing the amount of tokens required to begin staking.
 
-In addition to **DOT** and **KSM** tokens, you can also stake tokens from various parachains, such as **AZERO, KMA, GLMR, MOVR, PDEX, CAPS, TUR, WND, and ZTG**, with attractive APYs ranging from 8.64% to 81%.
+In addition to DOT and KSM tokens, you can also stake tokens from various parachains, such as **AZERO, KMA, GLMR, MOVR, PDEX, CAPS, TUR, WND, and ZTG**, with attractive APYs ranging from 8.64% to 81%.
 
-
-<robo-academy-grid :columns="2" textAlign="center">
-    <robo-academy-grid-element>
-        <LessonImages src="kusama-theory-practice/lesson6-staking-list.png" alt=""/>
-    </robo-academy-grid-element>
-    <robo-academy-grid-element>
-        <LessonImages src="kusama-theory-practice/lesson6-stake-dot.png" alt=""/>\
-    </robo-academy-grid-element>
-</robo-academy-grid>
-
-
-1. **Governance & Crowdloans**
-
-Nova Wallet makes participating in governance processes, such as voting on referenda, extremely simple. In the Vote section, you can check all ongoing referenda and yay/nay it with your tokens. You even have the option to delegate your voting power to another account, voting alongside it!
-
-You can use Nova Wallet to easily contribute to Polkadot and Kusama crowdloans in a non-custodial way, which one we strongly recommend you to do it, and not via a Centralized Exchange (CEX).
-
-
-<robo-academy-grid :columns="2" textAlign="center">
-    <robo-academy-grid-element>
-        <LessonImages src="kusama-theory-practice/lesson6-vote-governance.png" alt=""/>
-    </robo-academy-grid-element>
-    <robo-academy-grid-element>
-        <LessonImages src="kusama-theory-practice/lesson6-vote-crowdloans.png" alt=""/>
-    </robo-academy-grid-element>
-</robo-academy-grid>
-
-
-1. **Nova Browser with quick acces to Polkadot dApps**
-
-Nova's built-in browser provides quick access to various web pages while connecting your Nova Wallet accounts to interact with Polkadot and EVM dApps. The catalogue contains different dApps within the Polkadot ecosystem, such as DEX, Governance, NFT, Staking, Crowdloans, and more.
-
-## Setting up Nova Wallet
+# Setting up Nova Wallet
 
 Nova Wallet is available for download on both the App Store and Google Play Store. After downloading the app, you can choose to create a new wallet within Nova or import an existing one using your recovery seed or private key. The good news is that Nova is compatible with all major wallets, including Talisman for your browser, Ledger for secure crypto storage, as well as Polkadot.js account, and popular wallets like MetaMask – all in one hand. Sounds convenient, doesn't it? By the way, there’s a detailed overview of the installation in our video lesson, we hope you watched it.
 
-## Conclusion
+---
 
-Nova Wallet stands out as one of the most user-friendly and effective crypto wallets for mobile phones. Its full compatibility with the Polkadot and Kusama ecosystems makes it an ideal choice for Web3 tasks, offering versatility and convenience. However, it's essential to remember that a wallet like Nova is simply an interface for accessing your assets, which are always securely stored in the blockchain (especially in the case of non-custodial wallets like Nova). The responsibility for wallet security lies directly with the user and how diligently they handle their seed phrase. We conclude the block dedicated to cryptocurrency wallets and switching to the exploration of Asset Hub - a powerful tool for creating, managing, and customizing your own tokens. See you soon!
+# Module conclusion
+
+Summarising this part of our course, we have learned about convenient solutions for managing crypto-assets in Polkadot and Kusama ecosystems. These wallets go beyond storage and offer various functionalities that allow users to engage with the evolving landscape of Web3. Summarising the key takeaways from this module's lessons, we explored the benefits of using Talisman, Ledger, and Nova wallets:
+
+**Lesson 4 - Talisman.** Talisman is a crypto-wallet with its own platform and browser extension, that acts as a versatile gateway to over 150 Substrate and EVM networks via cross-chain interoperability. It facilitates the process of managing assets from various sources through a unified user-friendly interface by connecting different networks as a bridge. Talisman serves as a genuine Web3 companion, enabling participation in management and decision-making within the Polkadot and Kusama networks.
+
+**Lesson 5 - Ledger.** This lesson explains the contrast between software (hot) and hardware (cold) wallets – robust safeguards for secure cryptocurrency storage. One such hardware wallet is Ledger - physical storage resembling a flash driver, which provides substantial protection by storing private keys offline - shielding digital assets from online threats and hacking attempts, thus ensuring a high degree of safety. Nevertheless, even though Ledger and other hardware wallets reduce risks significantly, they do not guarantee a 100% protection of your assets.
+
+**Lesson 6 - Nova.** We explored Nova Wallet, a mobile solution for managing assets within the Polkadot network. Nova's toolkit offers various functionalities that exceed simple transactions, such as staking, governance, and crowdloans. Nova Wallet empowers users to engage actively in network procedures, exert voting power, and contribute crowdloans in a non-custodial way. The integrated browser enables access to Polkadot dApps, and notably the OpenGov system on Polkassembly, resulting in a user-friendly mobile interaction. Overall, Nova proves to be an excellent web3 unified hub as it is compatible with various wallet types.
+
+## Next module
+
+The upcoming module of our course will focus on managing assets via AssetHub, a distinct parachain within the Polkadot ecosystem. AssetHub allows you to design your own token, which you can then implement for various purposes, such as website authorization. Furthermore, we will elaborate on the advantages of the Internet's shift to the Web3 phase, with an emphasis on Polkadot's contribution to this evolution.
+
+---
+
+# Extra
+
+[A Walkthrough of Polkadot’s Governance](https://www.polkadot.network/blog/a-walkthrough-of-polkadots-governance)
+
+[https://github.com/turtlebot/turtlebot4](https://github.com/turtlebot/turtlebot4)
+
+</Spoiler>
+
 
 <Spoiler title="<h2 style='display: inline;' >Theory: Test</h2>">
 
@@ -84,65 +127,9 @@ quizUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-
 quizId="question6.3"
 />
 
-</Spoiler>
 
 </Spoiler>
 
-<Spoiler title="<h2 style='display: inline;' >Practice: Creating On-chain Proposal</h2>">
-
-In this practice, you will create a proposal on the Rococo testnet. Before starting, make sure you have enough free ROC tokens to submit a proposal (minimum 0.0033333333 ROC) and to vote on it. If not, your can use [Triangle faucet](https://faucet.triangleplatform.com/polkadot/rococo) or any faucet that your can find in Internet.
-
-### Preparing preimage
-
-The point of Governance in the Polkadot ecosystem is to propose changes to the network, and in such a way that changes are automatically carried out after a decision is made. Therefore, before creating a proposal, the applicant must prepare an image of these changes, which will be linked to the proposal. This is preimage and in fact it is commands for execution using the available extrinsics. For our task, we will use the extrinsic `system.remark`, which allows to save a text string in a chain.
-
-1. Select the Rococo testnet on the [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io) portal. 
-2. Go to the **Governance** tab and choose **Preimages**. Press `Add preimage` button.
-3. For your account, choose `system->remark` in the `propose` field. Add any text string you want to the `remark` field.
-4. Save the preimage hash, you will need it later. Then press `Submit preimage`. The preimage should appear in the list.
-
-### Submitting proposal
-
-Now you can start the actual creation of the proposal:
-
-1. Go to the **Governance** tab and choose **Democracy**. Press `Submit proposal` button.
-2. In the appeared window, for your account paste the saved preimage hash. Note that you will be required to lock a certain amount of ROC tokens. If the proposal is successful, it will be returned to you after its execution.
-3. Confirm the proposal creation.
-
-Since Governance in Rococo is still operating on the first version, after creating a proposal, it will appear on the queue list waiting a referendum. Every launch period (in this case, 7 days), proposals from this list are sent for voting depending on the number of endorsements. You can endorse any proposal with your tokens, which will be locked until a decision is made on it.
-
-### Designing the proposal text
-
-As you may have noticed, the Polkadot.js portal does not provide a detailed description of proposals, except for the applicant's address, the number of supporters, and the description of extrinsics. For this purpose, external services such as [Polkassembly](https://polkassembly.io/) and [Subsquare](http://subsquare.io/) have been developed by the community to conveniently track existing referendums and discussions, as well as add additional information to proposals. When creating a proposal on the Rococo network, you also automatically created a page for it on the Subsquare service. Now, let's try to add some context to your proposal.
-
-1. On the **Democracy** tab, find your proposal and expand its details using the button on the far right (looks like a down arrow).
-2. You will notice that an additional field called `external links` has appeared with icons of various services. You need to find the Subsquare icon and click on it. You should be redirected to your proposal in the Subsquare service.
-3. Most likely you will see that your proposal is called "Untitled - public proposal #X". Let's change its name and add some text. To do this, you first need to log in to Subsquare using the same account you used to create the proposal. The site will automatically recognize you as its author and allow you to edit the text.
-4. Click on the Edit button and add the following information (where X is the proposal number assigned by the system):
-
-    **Title:**
-
-    <RoboAcademyDialog>
-        Test Proposal for From Theory to Practice Course #X
-    </RoboAcademyDialog>
-
-    **Issue:**
-
-    <RoboAcademyDialog>
-        This is a test proposal prepared as part of the "Kusama - From Theory to Practice" course.
-    </RoboAcademyDialog>
-
-    After the changes, don't forget to click the `Update` button.
-
-### Referendum
-
-After the launch period, if the proposal has gained enough endorsements or if there were no other candidates, voting on the proposal begins. During voting, you also use your tokens to either support (Aye) or reject (Nay) a proposal. Moreover, the strength of your voice directly depends on the amount of your tokens and the period for which you want to lock your tokens. For example, 10 ROC tokens locked for 2 launch periods (14 days) will be counted as 20 ROC tokens.
-
-Depending on the importance of proposed changes in the network, some proposals may require the support of the majority of all token holders in the network. Less demanding proposals only require any number of Yay votes to outweigh Nay votes.
-
-To complete this task, you don't need to wait for your proposal to enter the referendum state and be accepted. However, we recommend waiting for this and trying to push your proposal for accepting.
-
-</Spoiler>
 
 <FeedbackBlock 
 formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"

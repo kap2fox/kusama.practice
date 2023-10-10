@@ -1,5 +1,5 @@
 ---
-title: How to mint your own token?
+title: Minting tokens in AssetHub
 description: A course for those who see the Polkadot and Kusama ecosystem for the first time.
 metaOptions: [Learn, Kusama — From Theory to Practice Course]
 defaultName: Kusama — From Theory to Practice Course
@@ -9,13 +9,21 @@ defaultName: Kusama — From Theory to Practice Course
 
 https://youtu.be/c54NYf36T1U
 
-# Lesson 7. Minting tokens in AssetHub
+<Spoiler title="<h2 style='display: inline;' >Lesson 7. Minting tokens in AssetHub</h2>">
 
 # **Introduction**
 
-Welcome back, members of the Polkadot spaceship!🚀 We have just finished the second module of the Polkadot course, where we got acquainted with the world of crypto-wallets, specifically those made for the Polkadot ecosystem or that fit perfectly with it, ensuring that your digital treasures are always at your fingertips with a user-friendly experience.
+## **Recap of the second module**
 
-This time, we will talk about the treasures themselves, and what’s important - not those you can buy, but those you can create yourself! Today, we shift our focus to the assets that can be created and managed in Polkadot & Kusama via **AssetHub**, a revolutionary system parachain that was made for creating and managing both fungible and non-fungible tokens (also known as NFTs) in Polkadot ecosystem.
+Welcome back, members of the Polkadot spaceship🚀 We have successfully completed two modules of the Polkadot ecosystem course. In the second module of the Polkadot course we got acquainted with the world of crypto-wallets, specifically those made for the Polkadot ecosystem or that fit perfectly with it, ensuring that your digital treasures are always at your fingertips with a user-friendly experience. Throughout the second module, we acquired knowledge about universal solutions for storing your cryptocurrency and utilizing all the Polkadot ecosystem features through the screens of your devices. Let’s rewind what kind of solutions we were talking about:
+
+1. **Talisman wallet -** web solution with its own browser extension, combining over 150 Substrate and EVM networks.
+2. **Ledger wallet -** cold hardware wallet in the form of flash driver, storing crypto offline, ensuring high degree of safety.
+3. **Nova wallet -** mobile crypto wallet with full access to dApps, Polkassembly, and OpenGov system.
+
+## **Introduction to AssetHub**
+
+This time we will talk about the assets themselves, and what’s important - not those you can buy, but those you can create yourself! Today, we shift our focus to the assets that can be created and managed in Polkadot & Kusama via **AssetHub**, a revolutionary system parachain that was made for creating and managing both fungible and non-fungible tokens (also known as NFTs) in Polkadot ecosystem.
 
 # Tokens matter: utility & security
 
@@ -54,28 +62,28 @@ Common-good parachain is a parachain designed to serve the community’s collect
 
 ## Fungible & Non-Fungible tokens
 
-Fungible assets are interchangeable, which means one unit is equivalent to any other unit to claim the underlying item. The Asset Hub represents fungible assets in the Assets pallet. This pallet presents a similar interface for those familiar with the ERC20 standard. However, the logic is encoded directly in the chain's runtime. As such, operations are not gas-metered but benchmarked upon every release, leading to efficient execution and stable transaction fees.
+Fungible assets are interchangeable, which means one unit is equivalent to any other unit to claim the underlying item. The Asset Hub represents fungible assets in the Assets pallet. This pallet presents a similar interface for those familiar with the **ERC20** standard. However, the logic is encoded directly in the chain's runtime. As such, operations are not gas-metered but benchmarked upon every release, leading to efficient execution and stable transaction fees.
 
-Unlike fungible assets, the particular instance of a [non-fungible asset (NFT)](https://wiki.polkadot.network/docs/learn-nft) has a separate meaning from another instance of the same class. The Asset Hub represents NFTs in the [Uniques and NFTs pallets](https://wiki.polkadot.network/docs/learn-nft-pallets).
+Unlike fungible assets, the particular instance of a [NFT](https://wiki.polkadot.network/docs/learn-nft) has a separate meaning from another instance of the same class. The Asset Hub represents NFTs in the [Uniques and NFTs pallets](https://wiki.polkadot.network/docs/learn-nft-pallets).
 
 Similar to the Assets pallet, this functionality is encoded into the chain. Operations are benchmarked before each release instead of any runtime metering, ensuring efficient execution and stable transaction fees.
 
-## Why would i need my own token?
+## Why would I need my own token?
 
 That’s a nice question you got. Well, imagine you're an individual with some groundbreaking idea. You're an artist, a game developer, an entrepreneur, or simply someone bursting with creativity, searching the way to monetize their work. Lucky for you, AssetHub allows you to turn your creations into digital assets. Your art can now be owned, traded, and appreciated in the Polkadot ecosystem, opening up new avenues for recognition and revenue in an upcoming web3 future:
 
-- **You're a game developer**. AssetHub becomes your virtual playground. You can create **utility** tokens that serve as in-game currency, unlocking special features, items, or levels.
+- **You're a game developer**. AssetHub becomes your virtual playground. You can create utility tokens that serve as in-game currency, unlocking special features, items, or levels.
 - **You’re a dApp developer**. You can create tokens that power your platforms. Whether it's a decentralized marketplace, a voting system, or a social media network, tokens can be designed to facilitate interactions, incentivize participation, and ensure smooth operations.
-- **You’re entrepreneur or a startup owner**. You can tokenize assets traditionally considered illiquid, such as real estate or artworks. This allows fractional ownership and makes these assets more accessible to a broader range of investors. **Security** tokens can also represent ownership in ventures, providing a new way to invest.
+- **You’re entrepreneur or a startup owner**. You can tokenize assets traditionally considered illiquid, such as real estate or artworks. This allows fractional ownership and makes these assets more accessible to a broader range of investors. Security tokens can also represent ownership in ventures, providing a new way to invest.
 - **You’re leader of a community project**. Tokens can serve you a powerful tool for building and nurturing communities. By creating tokens, you can reward contributors, incentivize active participation, and foster a sense of ownership. Members can earn tokens for their contributions, which can then be used within the ecosystem or exchanged for other assets.
 
 Asset creation on Polkadot isn't limited to predefined categories. You have the freedom to craft tokens that cater to specific niches and user needs. Whether it's personalized membership tokens, event tickets, or loyalty points, the possibilities are really only limited by your creativity and needs.
 
 ## Requirements for creating a token in AssetHub
 
-AssetHub is available for Polkadot users on both the Polkadot and Kusama relay chains, as well as on the testnets Westend and Rococo. Anyone on the network can create assets on the Asset Hub as long as they can reserve the required deposit of 10 DOT and around 0.201 DOT for the metadata. When you deploy a new token on the network, it can either be sufficient or non-sufficient. What does it mean?
+AssetHub is available for Polkadot users on both the Polkadot and Kusama relay chains, as well as on the testnets Westend and Rococo. Anyone on the network can create assets on the AssetHub as long as they can reserve the required deposit of 10 DOT and around 0.201 DOT for the metadata. When you deploy a new token on the network, it can either be sufficient or non-sufficient. What does it mean?
 
-To possess a non-sufficient asset within your account, the account must exist on the blockchain and hold a balance in the native asset that is at least equal to the **[Existential Deposit (ED)](https://support.polkadot.network/support/solutions/articles/65000168651)**. For example, on Polkadot AssetHub, this would require a balance of 0.1 DOT, while on Kusama AssetHub, it would be 0.000003333 KSM. Notably, these existential deposits are 10 times smaller compared to those on the Relay Chains.
+It means that to possess a non-sufficient asset within your account, the account must exist on the blockchain and hold a balance in the native asset that is at least equal to the **[Existential Deposit (ED)](https://support.polkadot.network/support/solutions/articles/65000168651)**. For example, on Polkadot AssetHub, this would require a balance of 0.1 DOT, while on Kusama AssetHub, it would be 0.000003333 KSM. Notably, these existential deposits are 10 times smaller compared to those on the Relay Chains.
 
 On the other hand, a sufficient asset, such as Tether (USDT), does not require the receiver account to hold an existential deposit in the native token (DOT or KSM) to receive the asset.
 
@@ -85,12 +93,15 @@ Existential Deposit (ED) is the minimum amount of tokens that a wallet must hold
 
 If you want to practice creating your own token, you can do so on a testnet by using test tokens, which can be easily obtained through a faucet’s. We have demonstrated the entire process in our video lesson.
 
+If you want to practice creating your own token, you can do so on a testnet by using test tokens, which can be easily obtained through a faucet’s. We have demonstrated the entire process in our video lesson.
+
 # Extra
 
-**More about “Statemint”, later AssetHub** - [https://www.parity.io/blog/statemint-generic-assets-chain-proposing-a-common-good-parachain-to-polkadot-governance/](https://www.parity.io/blog/statemint-generic-assets-chain-proposing-a-common-good-parachain-to-polkadot-governance/)
+**[More about “Statemint”, later AssetHub](https://www.parity.io/blog/statemint-generic-assets-chain-proposing-a-common-good-parachain-to-polkadot-governance/)**
 
-**How to Create, Transfer and Destroy Fungible Tokens on Polkadot** - [https://youtu.be/knNLZEyposM](https://youtu.be/knNLZEyposM)
+**[How to Create, Transfer and Destroy Fungible Tokens on Polkadot](https://www.youtube.com/watch?v=knNLZEyposM&ab_channel=Polkadot)**
 
+</Spoiler>
 
 <Spoiler title="<h2 style='display: inline;' >Theory: Test</h2>">
 
