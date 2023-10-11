@@ -76,17 +76,6 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-seo'
-    },
-    {
-      use: 'gridsome-plugin-matomo',
-      options: {
-        host: 'https://matomo.robonomics.network/',
-        siteId: 1,
-        requireConsent: true,
-        trackerFileName: 'unicorn',
-        trackerUrl: 'https://matomo.robonomics.network/rainbow.php',
-        trackerScriptUrl: 'https://matomo.robonomics.network/unicorn.js'
-      }
     }
   ],
 

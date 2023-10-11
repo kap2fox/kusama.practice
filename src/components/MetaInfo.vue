@@ -71,8 +71,8 @@ export default {
             description: this.pageDescription,
             provider: {
               '@type': "Organization",
-              name: "Robonomics Academy",
-              sameAs: "https://robonomics.academy/"
+              name: "Kusama Academy",
+              sameAs: "https://kusama.academy/"
             },
             headline: this.pageTitle,
             image: this.image
@@ -90,43 +90,13 @@ export default {
               position: 1,
               item: {
                 "@type": "Course",
-                url: "https://robonomics.academy/online-courses/introduction-course/",
-                name: this.getMetaInfo("Introduction Course"), 
-                description: this.getMetaInfo("Welcome Introduction Course!"), 
+                url: "https://kusama.academy/en/learn/kusama-theory-practice/",
+                name: this.getMetaInfo("Introduction Course"),
+                description: this.getMetaInfo("Welcome to the Course!"),
                 provider: {
                   '@type': "Organization",
-                  name: "Robonomics Academy",
-                  sameAs: "https://robonomics.academy/"
-                }
-              }
-            },
-            {
-              "@type": "ListItem",
-              position: 2,
-              item: {
-                "@type": "Course",
-                url: "https://robonomics.academy/online-courses/boston-dynamics-course/",
-                name: this.getMetaInfo("Boston Dynamics Spot Software Developing"), 
-                description: this.getMetaInfo("Our new Boston Dynamics Spot Software Developing!"), 
-                provider: {
-                  '@type': "Organization",
-                  name: "Robonomics Academy",
-                  sameAs: "https://robonomics.academy/"
-                }
-              }
-            },
-            {
-              "@type": "ListItem",
-              position: 3,
-              item: {
-                "@type": "Course",
-                url: "https://robonomics.academy/online-courses/smart-home-course/",
-                name: this.getMetaInfo("Sovereign Smart Home with Robonomics and Home Assistant"), 
-                description: this.getMetaInfo("In this course, you will go through all the steps required in order to build your own sovereign smart home, the main advantage of which is the safety / privacy of user data."),
-                provider: {
-                  '@type': "Organization",
-                  name: "Robonomics Academy",
-                  sameAs: "https://robonomics.academy/"
+                  name: "Kusama Academy",
+                  sameAs: "https://kusama.academy/"
                 }
               }
             }
@@ -199,13 +169,6 @@ export default {
 
 
 
-        // Some Twitter Cards Tags
-        { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: title },
-        { name: "twitter:image", content: image},
-        { name: "twitter:description", content: description },
-        { name: "twitter:site", content: '@AIRA_Robonomics' },
-        { name: "twitter:creator", content: '@AIRA_Robonomics' }
       ],
       script: this.googleCourseInfo
     };

@@ -89,7 +89,7 @@
         breadcrumbs: [
           {
             to: '/',
-            text: 'Robonomics Academy'
+            text: 'Kusama Academy'
           }
         ],
 

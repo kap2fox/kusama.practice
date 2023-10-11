@@ -156,17 +156,15 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     // faRobot
   )
 
-  Vue.prototype.$discord = 'https://discord.gg/xqDgG3EGm9'
-  Vue.prototype.$website = 'https://robonomics.academy'
 
-    
+
   appOptions.store = new Vuex.Store({
     namespaced: true,
     state: {
       // userTracker: {},
       showHeader: true,
       showImagePopup: false,
-      imagePopupSrc: 'smart-house-course/lesson-1-1.png',
+      imagePopupSrc: 'kusama-theory-practice/lesson4-stake.png',
       currentReaction: '',
       activeTags: [],
       activeFilter: [],
@@ -188,7 +186,7 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       HIDE_IMAGE_POPUP(state) {
         state.showImagePopup = false
         document.body.style.overflow = 'auto'
-        state.imagePopupSrc = 'smart-house-course/lesson-1-1.png';
+        state.imagePopupSrc = 'kusama-theory-practice/lesson4-stake.png';
       },
       SET_CURRENT_REACTION(state, reaction) {
         state.currentReaction = reaction;

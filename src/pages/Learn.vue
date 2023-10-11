@@ -2,7 +2,7 @@
   <Layout>
 
     <MetaInfo
-      pageTitle = "Learn with robonomics"
+      pageTitle = "Learn with us"
       pageDescription = "Learn with us"
       :pageImage = "'/og/learn'"
     />

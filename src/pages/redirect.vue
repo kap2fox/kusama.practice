@@ -2,7 +2,7 @@
   <Layout>
     <div class="redirect container__mid">
       <p>This page has moved to a </p>
-      <a :href="redirect">{{ ' https://robonomics.academy' + redirect }}</a>
+      <a :href="redirect">{{ ' https://kusama.academy' + redirect }}</a>
       <p>Automatic redirecting</p>
     </div>
   </Layout>
@@ -21,7 +21,7 @@ export default {
       link: () => [
         {
           rel: 'canonical',
-          href: `https://robonomics.academy${this.redirect}`,
+          href: `https://kusama.academy${this.redirect}`,
           id: 'canonical',
         },
       ],

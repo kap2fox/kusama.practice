@@ -30,7 +30,7 @@
 
 <script>
 
-import courses from '@/data/online-courses.yaml';
+// import courses from '@/data/online-courses.yaml';
 import translations from '@/data/locales/translations.yaml';
 import AccountManager from "../components/practice/AccountManager.vue";
 
@@ -60,7 +60,7 @@ export default {
       gscript: process.env.GRIDSOME_GS_CERTIFICATE,
       captcha: process.env.GRIDSOME_CAPTCHAID,
 
-      course: this.$ts(courses[0].title),
+      // course: this.$ts(courses[0].title),
       account: '',
       name: '',
       email: '',
@@ -72,9 +72,9 @@ export default {
   },
 
   computed: {
-    courses() {
-      return courses;
-    },
+    // courses() {
+    //   return courses;
+    // },
     translations() {
       return translations;
     },

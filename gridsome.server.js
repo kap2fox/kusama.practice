@@ -19,8 +19,7 @@ require.extensions['.yaml'] = function(module, filename) { // To safely load .ya
   module.exports = yaml.load(fs.readFileSync(filename, 'utf8'));
 }
 
-const courses = require('./src/data/online-courses.yaml')
-const imgsInfo = require('./src/data/images-info.yaml');
+// const courses = require('./src/data/online-courses.yaml')
 
 // For generated images configuration
 const defaultOptions = {
@@ -30,8 +29,8 @@ const defaultOptions = {
   ],
   imgWidth: "1280px",
   imgHeight: "650px",
-  domain: "robonommics.academy",
-  basePath: "src/pages/online-courses/",
+  domain: "kusama.academy",
+  basePath: "src/pages/learn/",
   outputDir: "static/og/"
 };
 
@@ -79,50 +78,32 @@ module.exports = function (api) {
 
 
 
-    courses.forEach((course) => {
-      
-      fsExtra.ensureDirSync(options.basePath + course.path)
+    // courses.forEach((course) => {
+    //
+    //   fsExtra.ensureDirSync(options.basePath + course.path)
+    //
+    //
+    //   collection.data().forEach((lesson) => { // Generate images for lessons themselves
+    //
+    //     if (lesson.internal.typeName === options.typeName) {
+    //
+    //
+    //       const imgName = lesson.fileInfo.name;
+    //       const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(','));
+    //       const lessonTitle = lessonNamePart ? lesson.title.replace(lessonNamePart, '').slice(2).trim() : lesson.title;
+    //       const locale = lesson.fileInfo.path.slice(0,2);
+    //       const dir = lesson.fileInfo.directory.slice(9);
+    //       const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
+    //       const lessonOptions = [...lesson.metaOptions, lessonTitle];
+    //       generateImage(output, lessonOptions, options)
+    //
+    //
+    //     }
+    //
+    //   })
+    // })
 
-      imgsInfo.forEach(img => {
-        img.courses.forEach(imgCourse => {
-          if(imgCourse.title === course.title) {
-            const output = `${options.outputDir}${course.path}${imgCourse.imgName}`
-            generateImage(output, imgCourse.options, options)
-          }
-        })
-      })
 
-      collection.data().forEach((lesson) => { // Generate images for lessons themselves
-
-        if (lesson.internal.typeName === options.typeName) {
-
-          
-          const imgName = lesson.fileInfo.name;
-          const lessonNamePart = lesson.title.substr(0, lesson.title.indexOf(',')); 
-          const lessonTitle = lessonNamePart ? lesson.title.replace(lessonNamePart, '').slice(2).trim() : lesson.title;
-          const locale = lesson.fileInfo.path.slice(0,2);
-          const dir = lesson.fileInfo.directory.slice(9);
-          const output = `${options.outputDir}${dir}/${imgName}-${locale}.png`
-          const lessonOptions = [...lesson.metaOptions, lessonTitle];
-          generateImage(output, lessonOptions, options)
-          
-
-        }
-
-      })
-    })
-
-    imgsInfo.forEach(img => {
-
-      // for certificates page
-      generateImage(options.outputDir + img.certificate.imgName, img.certificate.options, options)
-
-      // for online courses page
-      // generateImage(options.outputDir + img['online-course'].imgName, img['online-course'].options, options)
-
-      // for learn page
-      // generateImage(options.outputDir + img.learn.imgName, img.learn.options, options)
-    })
 
   })
 
@@ -211,106 +192,6 @@ stream.write(`\n- link: ${options.path}
 
     const localesAll = ["ru", "it", "es", "de", "pt", "en"];
 
-    const oldPaths = ['/online-courses/', '/playground/'];
-
-    const oldCourses = [
-      {
-        old: 'introduction-course/1-broadcasting-through-the-black-mirror',
-        new: 'introduction-course/broadcasting-through-the-black-mirror'
-      },
-      {
-        old: 'introduction-course/2-at-the-intersection-of-cybernetics-and-economics',
-        new: 'introduction-course/at-the-intersection-of-cybernetics-and-economics'
-      },
-      {
-        old: 'introduction-course/3-polkadot-ecosystem-for-home-iot-infrastructure',
-        new: 'introduction-course/polkadot-ecosystem-for-home-iot-infrastructure'
-      },
-      {
-        old: 'introduction-course/4-robonomics-architecture',
-        new: 'introduction-course/robonomics-architecture',
-      },
-      {
-        old: 'introduction-course/5-iot-subscriptions-using-robonomics-parachain',
-        new: 'introduction-course/iot-subscriptions-using-robonomics-parachain'
-      },
-      {
-        old: 'introduction-course/5-iot-subscriptions-using-robonomics-parachain',
-        new: 'introduction-course/iot-subscriptions-using-robonomics-parachain'
-      },
-      {
-        old: 'smart-home-course/1-robonomics-hass-theory',
-        new: 'smart-home-course/robonomics-hass-theory'
-      },
-      {
-        old: 'smart-home-course/2-raspberry-pi-setup',
-        new: 'smart-home-course/raspberry-pi-setup'
-      },
-      {
-        old: 'smart-home-course/3-mqtt-broker-setup',
-        new: 'smart-home-course/mqtt-broker-setup'
-      },
-      {
-        old: 'smart-home-course/4-a-gateway-setup-zigbee2mqtt',
-        new: 'smart-home-course/gateway-setup-zigbee2mqtt'
-      },
-      {
-        old: 'smart-home-course/4-b-gateway-setup-robonomics-sls-gateway',
-        new: 'smart-home-course/gateway-setup-robonomics-sls-gateway'
-      },
-      {
-        old: 'smart-home-course/5-robonomics-iot-subscription-setup',
-        new: 'smart-home-course/robonomics-iot-subscription-setup'
-      },
-      {
-        old: 'smart-home-course/6-robonomics-integration-setup',
-        new: 'smart-home-course/robonomics-integration-setup'
-      },
-      {
-        old: 'smart-home-course/7-usage-of-robonomics-with-hass',
-        new: 'smart-home-course/usage-of-robonomics-with-hass'
-      },
-      {
-        old: 'sensors-connectivity-course/1-introduction',
-        new: 'sensors-connectivity-course/introduction'
-      },
-      {
-        old: 'sensors-connectivity-course/2-sensor-hardware',
-        new: 'sensors-connectivity-course/sensor-hardware'
-      },
-      {
-        old: 'sensors-connectivity-course/3-setting-up-and-connecting-sensors',
-        new: 'sensors-connectivity-course/setting-up-and-connecting-sensors'
-      },
-      {
-        old: 'sensors-connectivity-course/4-sensors-connectivity-module',
-        new: 'sensors-connectivity-course/sensors-connectivity-module'
-      },
-      {
-        old: 'sensors-connectivity-course/5-sensors-connectivity-config-options',
-        new: 'sensors-connectivity-course/sensors-connectivity-config-options'
-      },
-      {
-        old: 'sensors-connectivity-course/6-sensor-map-deployment',
-        new: 'sensors-connectivity-course/sensor-map-deployment'
-      },
-      {
-        old: 'sensors-connectivity-course/7-robonomics-sensors-measure-analytics-and-archive-node',
-        new: 'sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node'
-      },
-      {
-        old: 'sensors-connectivity-course/7-robonomics-sensors-measure-analytics-and-archive-node',
-        new: 'sensors-connectivity-course/robonomics-sensors-measure-analytics-and-archive-node'
-      },
-      {
-        old: 'boston-dynamics-course',
-        new: 'boston-dynamics-spot'
-      }
-    ]
-
-    const oldPlayground = ['connect-mars-curiosity-rover', 'connect-any-ros-compatible-drone', 'kuka', 'iris-drone', 'baxter', 'ros-smart-projects', 'spot-try-it-out'];
-
-    const allCoursesPaths = ['sensors-connectivity-course', 'introduction-course', 'smart-home-course', 'ai-based-bachelor-thesis', 'fake-housewife-and-ai-research-smart-home-solution', 'open-source-private-smart-home-intro', 'opengov-for-iot',];
 
     const createNewRedirect = (path, redirect, ) => {
       localesAll.forEach(l => {
@@ -325,27 +206,8 @@ stream.write(`\n- link: ${options.path}
         )
       })
     }
-    
-    oldPaths.forEach(path => {
-      createNewRedirect(path, '/learn')
-    })
 
-    createNewRedirect(`/online-courses/introduction-course`, '/learn/introduction-course/overview')
-    createNewRedirect(`/online-courses/smart-home-course`, '/learn/smart-home-course/overview')
-    createNewRedirect(`/online-courses/sensors-connectivity-course`, '/learn/sensors-connectivity-course/overview')
 
-    oldCourses.forEach(path => {
-      createNewRedirect(`/online-courses/${path.old}`, `/learn/${path.new}/overview`,)
-    })
-
-    oldPlayground.forEach(path => {
-      createNewRedirect(`/playground/${path}`, `/learn/${path}/overview`)
-    })
-
-    allCoursesPaths.forEach(path => {
-      createNewRedirect(`/learn/${path}`, `/learn/${path}/overview`)
-    })
- 
 
     allPossiblePaths.forEach(node => {
 

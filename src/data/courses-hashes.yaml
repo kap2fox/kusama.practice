@@ -623,7 +623,7 @@
 - link: /en/learn/kusama-theory-practice/ecosystem-explained/ 
   hash: 5f02f82ee12bf775be646dc45fc12ed3 
   lastUpdate: Wed Oct 11 2023 04:34:17 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/ecosystem-explained/: true            
+  updated/en/learn/kusama-theory-practice/ecosystem-explained/: false             
 
 - link: /en/learn/kusama-theory-practice/first-transaction/ 
   hash: f7eb09c144e006f175f58d7edb78122d 
@@ -778,32 +778,32 @@
 - link: /en/learn/kusama-theory-practice/ipfs/ 
   hash: 3e4513c9a271b0d75240345b669e9529 
   lastUpdate: Wed Oct 11 2023 17:24:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/ipfs/: true    
+  updated/en/learn/kusama-theory-practice/ipfs/: false     
 
 - link: /en/learn/kusama-theory-practice/crust/ 
   hash: 527f61b139489ba1416c73bb8b95420e 
   lastUpdate: Wed Oct 11 2023 17:25:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/crust/: true  
+  updated/en/learn/kusama-theory-practice/crust/: false   
 
 - link: /en/learn/kusama-theory-practice/lamp/ 
   hash: de700b14b0e190f6d16cdf429bda3ef8 
   lastUpdate: Wed Oct 11 2023 17:25:52 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/lamp/: true  
+  updated/en/learn/kusama-theory-practice/lamp/: false   
 
 - link: /en/learn/kusama-theory-practice/robonomics/ 
   hash: 1962e12c50b0d1335c5aeeeab4408b18 
   lastUpdate: Wed Oct 11 2023 17:25:41 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/robonomics/: true  
+  updated/en/learn/kusama-theory-practice/robonomics/: false   
 
 - link: /en/learn/kusama-theory-practice/spot/ 
   hash: c558c8c8c7759cb3add4a0288b9bb66d 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/spot/: true  
+  updated/en/learn/kusama-theory-practice/spot/: false   
 
 - link: /en/learn/kusama-theory-practice/crust-routine/ 
   hash: b779cd241149ae0c1275fbec9118a21e 
   lastUpdate: Wed Oct 11 2023 17:25:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/crust-routine/: true  
+  updated/en/learn/kusama-theory-practice/crust-routine/: false   
 
 - link: /en/learn/kusama-wallets/ledger123/ 
   hash: 1262f310c80b206a098d7ca1b6532087 
@@ -823,17 +823,17 @@
 - link: /en/learn/kusama-theory-practice/practice-wallet/ 
   hash: 724e043a9584b0853c619c11f6a1b085 
   lastUpdate: Wed Oct 11 2023 04:35:33 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-wallet/: true  
+  updated/en/learn/kusama-theory-practice/practice-wallet/: false   
 
 - link: /en/learn/kusama-theory-practice/practice-wallet/ 
   hash: 724e043a9584b0853c619c11f6a1b085 
   lastUpdate: Wed Oct 11 2023 04:34:27 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-wallet/: true  
+  updated/en/learn/kusama-theory-practice/practice-wallet/: false   
 
 - link: /en/learn/kusama-theory-practice/practice-transaction/ 
   hash: 146124705e60df458c4183ce804dadea 
   lastUpdate: Wed Oct 11 2023 04:34:27 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-transaction/: true  
+  updated/en/learn/kusama-theory-practice/practice-transaction/: false   
 
 - link: /en/learn/kusama-theory-practice/practice-proposal/ 
   hash: 89013559d13490dfae6b6187a0c1696b 
@@ -851,19 +851,19 @@
   updated/en/learn/kusama-theory-practice/practice-mint/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-ipfs/ 
+  hash: 547dcc3a015cd5b6f8de34ff3051129e 
+  lastUpdate: Wed Oct 11 2023 17:24:57 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/kusama-theory-practice/practice-ipfs/: true                 
+
+- link: /en/learn/kusama-theory-practice/practice-ipfs/ 
   hash: 11332f890b8a52aef2ef9781d195b1b8 
   lastUpdate: Wed Oct 11 2023 17:24:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-ipfs/: true 
+  updated/en/learn/kusama-theory-practice/practice-ipfs/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-ipfs/ 
   hash: 547dcc3a015cd5b6f8de34ff3051129e 
   lastUpdate: Wed Oct 11 2023 17:24:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-ipfs/: true 
-
-- link: /en/learn/kusama-theory-practice/practice-ipfs/ 
-  hash: 547dcc3a015cd5b6f8de34ff3051129e 
-  lastUpdate: Wed Oct 11 2023 17:24:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-ipfs/: true 
+  updated/en/learn/kusama-theory-practice/practice-ipfs/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-crust-shadow/ 
   hash: 11332f890b8a52aef2ef9781d195b1b8 
@@ -878,284 +878,284 @@
 - link: /en/learn/kusama-theory-practice/practice-crust/ 
   hash: 1d93a49baa7f848e386c4cb080d81c86 
   lastUpdate: Wed Oct 11 2023 17:25:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-crust/: true 
+  updated/en/learn/kusama-theory-practice/practice-crust/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-crust/ 
   hash: 1d93a49baa7f848e386c4cb080d81c86 
   lastUpdate: Wed Oct 11 2023 17:25:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-crust/: true 
+  updated/en/learn/kusama-theory-practice/practice-crust/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-lamp/ 
   hash: 547dcc3a015cd5b6f8de34ff3051129e 
   lastUpdate: Wed Oct 11 2023 17:26:03 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-lamp/: true 
+  updated/en/learn/kusama-theory-practice/practice-lamp/: true                 
 
 - link: /en/learn/kusama-theory-practice/practice-lamp/ 
   hash: 11332f890b8a52aef2ef9781d195b1b8 
   lastUpdate: Wed Oct 11 2023 17:26:03 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-lamp/: true 
+  updated/en/learn/kusama-theory-practice/practice-lamp/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-lamp/ 
   hash: 11332f890b8a52aef2ef9781d195b1b8 
   lastUpdate: Wed Oct 11 2023 17:26:03 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-lamp/: true 
+  updated/en/learn/kusama-theory-practice/practice-lamp/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-spot/ 
   hash: 00389836c366dc485a0c637ecb7aae9b 
   lastUpdate: Wed Oct 11 2023 16:43:39 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-spot/: true 
+  updated/en/learn/kusama-theory-practice/practice-spot/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/polkadot-and-kusama/overview/ 
   hash: 6855129c09d35b4c132b8db06f33be79 
   lastUpdate: Wed Oct 11 2023 17:18:22 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/polkadot-and-kusama/overview/: true 
+  updated/en/learn/polkadot-and-kusama/overview/: false  
 
 - link: /en/learn/polkadot-and-kusama/first-transaction/ 
   hash: 7037efe298531625148ebdecde41b8c2 
   lastUpdate: Wed Oct 11 2023 17:18:53 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/polkadot-and-kusama/first-transaction/: true 
+  updated/en/learn/polkadot-and-kusama/first-transaction/: false  
 
 - link: /en/learn/polkadot-and-kusama/practice-wallet/ 
   hash: bda660e0d06784bebb44c2c105208a5c 
   lastUpdate: Wed Oct 11 2023 17:18:53 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/polkadot-and-kusama/practice-wallet/: true 
+  updated/en/learn/polkadot-and-kusama/practice-wallet/: false  
 
 - link: /en/learn/polkadot-and-kusama/ecosystem-explained/ 
   hash: 7f39ed6fcbb8a4ace19d7bc3c43fb9f7 
   lastUpdate: Wed Oct 11 2023 17:18:53 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/polkadot-and-kusama/ecosystem-explained/: true 
+  updated/en/learn/polkadot-and-kusama/ecosystem-explained/: false  
 
 - link: /en/learn/polkadot-and-kusama/practice-transaction/ 
   hash: 8d755ea3df6940050a2c2b834aaa15b4 
   lastUpdate: Wed Oct 11 2023 17:18:53 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/polkadot-and-kusama/practice-transaction/: true 
+  updated/en/learn/polkadot-and-kusama/practice-transaction/: false  
 
 - link: /en/learn/wallets/overview/ 
   hash: c8a6cff960840014afd58493c0f1de00 
   lastUpdate: Wed Oct 11 2023 17:22:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/wallets/overview/: true 
+  updated/en/learn/wallets/overview/: false  
 
 - link: /en/learn/wallets/novawallet/ 
   hash: 0c7f651cf568705e65e4d02a02854cb0 
   lastUpdate: Wed Oct 11 2023 17:22:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/wallets/novawallet/: true 
+  updated/en/learn/wallets/novawallet/: false  
 
 - link: /en/learn/wallets/practice-proposal/ 
   hash: 1d7f1806764e83ee19cef37203d2d623 
   lastUpdate: Wed Oct 11 2023 17:22:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/wallets/practice-proposal/: true 
+  updated/en/learn/wallets/practice-proposal/: false  
 
 - link: /en/learn/wallets/ledger/ 
   hash: fd18f75f35a2d1c7d3167836ffb321a6 
   lastUpdate: Wed Oct 11 2023 17:22:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/wallets/ledger/: true 
+  updated/en/learn/wallets/ledger/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-ipfs/ 
   hash: 547dcc3a015cd5b6f8de34ff3051129e 
   lastUpdate: Wed Oct 11 2023 17:24:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-ipfs/: true 
+  updated/en/learn/kusama-theory-practice/practice-ipfs/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-crust/ 
   hash: 1d93a49baa7f848e386c4cb080d81c86 
   lastUpdate: Wed Oct 11 2023 17:25:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-crust/: true 
+  updated/en/learn/kusama-theory-practice/practice-crust/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-lamp/ 
   hash: 11332f890b8a52aef2ef9781d195b1b8 
   lastUpdate: Wed Oct 11 2023 17:26:03 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-lamp/: true 
+  updated/en/learn/kusama-theory-practice/practice-lamp/: false  
 
 - link: /en/learn/kusama-theory-practice/has/ 
   hash: fc5edd31cef4e29f5f5e009970aee20f 
   lastUpdate: Wed Oct 11 2023 17:26:20 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/has/: true 
+  updated/en/learn/kusama-theory-practice/has/: false  
 
 - link: /en/learn/assethub/polkadot-auth/ 
   hash: 62cb8ac6679b78f0bc5ce48adb18f4c3 
   lastUpdate: Wed Oct 11 2023 17:31:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/assethub/polkadot-auth/: true 
+  updated/en/learn/assethub/polkadot-auth/: false  
 
 - link: /en/learn/assethub/overview/ 
   hash: c6d58ff8571532c30392eec356e7185c 
   lastUpdate: Wed Oct 11 2023 17:31:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/assethub/overview/: true 
+  updated/en/learn/assethub/overview/: false  
 
 - link: /en/learn/assethub/practice-mint/ 
   hash: 0338a8226deba792d0fcfe0e69d9d841 
   lastUpdate: Wed Oct 11 2023 17:31:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/assethub/practice-mint/: true 
+  updated/en/learn/assethub/practice-mint/: false  
 
 - link: /en/learn/assethub/token-manage/ 
   hash: 156b33a1c3b4d97c4c951b7d0a54ff55 
   lastUpdate: Wed Oct 11 2023 17:31:30 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/assethub/token-manage/: true 
+  updated/en/learn/assethub/token-manage/: false  
 
 - link: /en/learn/get-tokens/moonriver/ 
   hash: 2648a02f8e8d2ddf3ed7d77b2dffa156 
   lastUpdate: Wed Oct 11 2023 17:58:42 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/get-tokens/moonriver/: true 
+  updated/en/learn/get-tokens/moonriver/: false  
 
 - link: /en/learn/get-tokens/overview/ 
   hash: 7bdeabc89dc5b2bea78575dc55420a1e 
   lastUpdate: Wed Oct 11 2023 17:58:42 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/get-tokens/overview/: true 
+  updated/en/learn/get-tokens/overview/: false  
 
 - link: /en/learn/get-tokens/basilisk/ 
   hash: bd2bdfc96c32d42aacf7cb497f450a4b 
   lastUpdate: Wed Oct 11 2023 17:58:42 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/get-tokens/basilisk/: true 
+  updated/en/learn/get-tokens/basilisk/: false  
 
 - link: /en/learn/get-tokens/karura/ 
   hash: 75839fbd9076dc2ae28c3c551561aca4 
   lastUpdate: Wed Oct 11 2023 17:58:42 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/get-tokens/karura/: true 
+  updated/en/learn/get-tokens/karura/: false  
 
 - link: /en/learn/crust/practice-ipfs/ 
   hash: 1a7473febb52800612be36ed0dff2202 
   lastUpdate: Wed Oct 11 2023 18:01:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/crust/practice-ipfs/: true 
+  updated/en/learn/crust/practice-ipfs/: false  
 
 - link: /en/learn/crust/crust/ 
   hash: 842c3cb4c761eaa450d8a8ca419a41a6 
   lastUpdate: Wed Oct 11 2023 18:01:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/crust/crust/: true 
+  updated/en/learn/crust/crust/: false  
 
 - link: /en/learn/crust/crust-routine/ 
   hash: 7cee3179854b67d3fca07971216b9558 
   lastUpdate: Wed Oct 11 2023 18:01:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/crust/crust-routine/: true 
+  updated/en/learn/crust/crust-routine/: false  
 
 - link: /en/learn/crust/overview/ 
   hash: 0be71df20b87557acc5dfb303ae77d3a 
   lastUpdate: Wed Oct 11 2023 18:01:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/crust/overview/: true 
+  updated/en/learn/crust/overview/: false  
 
 - link: /en/learn/crust/practice-crust/ 
   hash: dee60e6998dddecb58214acc25fcf130 
   lastUpdate: Wed Oct 11 2023 18:01:24 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/crust/practice-crust/: true 
+  updated/en/learn/crust/practice-crust/: false  
 
 - link: /en/learn/robonomics/spot/ 
   hash: c22b2b3faf8e288a876f3756d678d00d 
   lastUpdate: Wed Oct 11 2023 18:06:17 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/robonomics/spot/: true 
+  updated/en/learn/robonomics/spot/: false  
 
 - link: /en/learn/robonomics/has/ 
   hash: 28ded2fab3c304cebe6e680757dfc536 
   lastUpdate: Wed Oct 11 2023 18:06:17 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/robonomics/has/: true 
+  updated/en/learn/robonomics/has/: false  
 
 - link: /en/learn/robonomics/overview/ 
   hash: 90305d5acd2108a8bed271dd40bd21dd 
   lastUpdate: Wed Oct 11 2023 18:06:17 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/robonomics/overview/: true 
+  updated/en/learn/robonomics/overview/: false  
 
 - link: /en/learn/robonomics/lamp/ 
   hash: ed67ea4f115b752f2cd5982133564982 
   lastUpdate: Wed Oct 11 2023 18:06:17 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/robonomics/lamp/: true 
+  updated/en/learn/robonomics/lamp/: false  
 
 - link: /en/learn/robonomics/practice-lamp/ 
   hash: da31f21eb3a8a65d4946445e71ff4611 
   lastUpdate: Wed Oct 11 2023 18:06:17 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/robonomics/practice-lamp/: true 
+  updated/en/learn/robonomics/practice-lamp/: false  
 
 - link: /en/learn/robonomics/practice-spot/ 
   hash: a7f541112284bbb7ce565496ad886a13 
   lastUpdate: Wed Oct 11 2023 18:06:17 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/robonomics/practice-spot/: true 
+  updated/en/learn/robonomics/practice-spot/: false  
