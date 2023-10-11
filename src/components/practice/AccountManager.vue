@@ -38,10 +38,19 @@
 </template>
 
 <script>
+const web3Accounts = null
+const web3Enable = null
+const web3FromAddress = null
+const Keyring = null
+const stringToHex = null
 
-import {web3Accounts, web3Enable, web3FromAddress} from '@polkadot/extension-dapp';
-import {Keyring} from '@polkadot/keyring';
-import {stringToHex} from "@polkadot/util";
+if (process.isClient) {
+  const web3Accounts = require('@polkadot/extension-dapp').web3Accounts
+  const web3Enable = require('@polkadot/extension-dapp').web3Enable
+  const web3FromAddress = require('@polkadot/extension-dapp').web3FromAddress
+  const Keyring = require('@polkadot/keyring').Keyring
+  const stringToHex = require('@polkadot/util').stringToHex
+}
 
 const getInjectedAccounts = async () => {
   const allInjected = await web3Enable('kusama.practice course');
@@ -55,6 +64,7 @@ export default {
 
   props: {},
   mounted: async function () {
+
     this.allAccounts = await getInjectedAccounts()
     const savedAddress = $cookies.get('account_address')
     if (savedAddress) {
