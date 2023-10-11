@@ -13,8 +13,10 @@
         <div class="overlay" :class="{'open': isFilterOpen}" />
 
         <div class="container__narrow learn__info">
-          <h1>{{ $ts('Learn and practice web3') }}</h1>
-          <p class="text__center">{{ $ts('Discover our expanding selection of hands-on exercises, tutorials, and online courses for free. The core developers and researchers at Robonomics invite you to enter the world of web3 and gain practical and theoretical skills through quizzes, device simulations, and even real-life setups using Robonomics Parachain (Polkadot), IPFS, and other web3 tools.') }}</p>
+          <h1>{{ $ts('Kusama - From Theory to Practice!') }}</h1>
+          <p class="text__center">{{ $ts('Welcome to the course! ') }}</p>
+          <p class="text__center">{{ $ts('') }}</p>
+
         </div>
 
         <div class="learn__actions">

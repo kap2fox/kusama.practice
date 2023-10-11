@@ -33,6 +33,7 @@
       path: 'iot-subscriptions-using-robonomics-parachain'
       status: done
 
+
 - id: '2'
   title: 'Kusama — From Theory to Practice Course'
   path: 'kusama-theory-practice'
@@ -119,9 +120,17 @@
       title: 'Decentralized storage network'
       path: 'ipfs'
       status: done
+    - id: '314'
+      title: 'Practice: Upload file to IPFS'
+      path: 'practice-ipfs'
+      status: done
     - id: '15'
       title: 'How to manage data in IPFS?'
       path: 'crust'
+      status: done
+    - id: '315'
+      title: 'Practice: Upload file to Crust'
+      path: 'practice-crust'
       status: done
     - id: '16'
       title: 'Decentralized Internet'
@@ -135,12 +144,204 @@
       title: 'Smart lamp control via Web3.0'
       path: 'lamp'
       status: done
+    - id: '318'
+      title: 'Practice: Light a lamp'
+      path: 'practice-lamp'
+      status: done
     - id: '19'
       title: 'Spot robodog gives you a data'
       path: 'spot'
       status: done
+    - id: '319'
+      title: 'Practice: Spot'
+      path: 'practice-spot'
+      status: done
     - id: '20'
       title: 'Send transaction to your smart home'
       path: 'has'
-      status: in progress
+      status: done
 
+
+- id: '8'
+  title: 'Robonomics'
+  path: 'robonomics'
+  level: 1
+  tags: [ 'course', 'tutorial' ]
+  filters: [ 'Kusama', 'Polkadot' ]
+  progress: progress
+  author: ''
+  published: true
+  lessons:
+    - id: '17'
+      title: 'Robonomics applications'
+      path: 'overview'
+      status: done
+    - id: '18'
+      title: 'Smart lamp control via Web3.0'
+      path: 'lamp'
+      status: done
+    - id: '318'
+      title: 'Practice: Light a lamp'
+      path: 'practice-lamp'
+      status: done
+    - id: '19'
+      title: 'Spot robodog gives you a data'
+      path: 'spot'
+      status: done
+    - id: '319'
+      title: 'Practice: Spot'
+      path: 'practice-spot'
+      status: done
+    - id: '20'
+      title: 'Send transaction to your smart home'
+      path: 'has'
+      status: done
+
+
+- id: '7'
+  title: 'Crust'
+  path: 'crust'
+  level: 1
+  tags: [ 'course', 'tutorial' ]
+  filters: [ 'Kusama', 'Polkadot' ]
+  progress: progress
+  author: ''
+  published: true
+  lessons:
+    - id: '14'
+      title: 'Decentralized storage network'
+      path: 'overview'
+      status: done
+    - id: '314'
+      title: 'Practice: Upload file to IPFS'
+      path: 'practice-ipfs'
+      status: done
+    - id: '15'
+      title: 'How to manage data in IPFS?'
+      path: 'crust'
+      status: done
+    - id: '315'
+      title: 'Practice: Upload file to Crust'
+      path: 'practice-crust'
+      status: done
+    - id: '16'
+      title: 'Decentralized Internet'
+      path: 'crust-routine'
+      status: done
+
+
+- id: '6'
+  title: 'Get tokens'
+  path: 'get-tokens'
+  level: 1
+  tags: [ 'course', 'tutorial' ]
+  filters: [ 'Kusama', 'Polkadot' ]
+  progress: progress
+  author: ''
+  published: true
+  lessons:
+    - id: '10'
+      title: 'Legal ways to obtain KSM'
+      path: 'overview'
+      status: done
+    - id: '11'
+      title: 'Kusama DeFi Hub'
+      path: 'karura'
+      status: done
+    - id: '12'
+      title: 'BSX style Liquidity'
+      path: 'basilisk'
+      status: done
+    - id: '13'
+      title: 'Kusama’s external bridge'
+      path: 'moonriver'
+      status: done
+
+
+- id: '5'
+  title: 'AssetHUB'
+  path: 'assethub'
+  level: 1
+  tags: [ 'course', 'tutorial' ]
+  filters: [ 'Kusama', 'Polkadot' ]
+  progress: progress
+  author: ''
+  published: true
+  lessons:
+    - id: '7'
+      title: 'Minting tokens in AssetHub'
+      path: 'overview'
+      status: done
+    - id: '8'
+      title: 'Token distribution'
+      path: 'token-manage'
+      status: done
+    - id: '34'
+      title: 'Practice: Mint token'
+      path: 'practice-mint'
+      status: done
+    - id: '9'
+      title: 'Web3 Transition'
+      path: 'polkadot-auth'
+      status: done
+
+
+- id: '4'
+  title: 'Wallets'
+  path: 'wallets'
+  level: 1
+  tags: [ 'course', 'tutorial' ]
+  filters: [ 'Kusama', 'Polkadot' ]
+  progress: progress
+  author: ''
+  published: true
+  lessons:
+    - id: '4'
+      title: 'More than just a wallet'
+      path: 'overview'
+      status: done
+    - id: '5'
+      title: 'A vault for your crypto'
+      path: 'ledger'
+      status: done
+    - id: '6'
+      title: 'Polkadot in your hand'
+      path: 'novawallet'
+      status: done
+    - id: '36'
+      title: 'Practice: Creating On-chain Proposal'
+      path: 'practice-proposal'
+      status: done
+
+
+
+- id: '3'
+  title: 'Polkadot and Kusama'
+  path: 'polkadot-and-kusama'
+  level: 1
+  tags: [ 'course' ]
+  filters: [ 'Kusama', 'Polkadot' ]
+  progress: progress
+  author: ''
+  published: true
+  lessons:
+    - id: '1'
+      title: 'Exploring the Polkadot'
+      path: 'overview'
+      status: done
+    - id: '2'
+      title: 'Polkadot & Kusama structure'
+      path: 'ecosystem-explained'
+      status: done
+    - id: '32'
+      title: 'Practice: Install Wallet'
+      path: 'practice-wallet'
+      status: done
+    - id: '3'
+      title: 'NPoS tools in Polkadot'
+      path: 'first-transaction'
+      status: done
+    - id: '33'
+      title: 'Practice: First transaction'
+      path: 'practice-transaction'
+      status: done
