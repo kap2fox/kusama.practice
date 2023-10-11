@@ -38,18 +38,18 @@
 </template>
 
 <script>
-const web3Accounts = null
-const web3Enable = null
-const web3FromAddress = null
-const Keyring = null
-const stringToHex = null
+let web3Accounts = null
+let web3Enable = null
+let web3FromAddress = null
+let Keyring = null
+let stringToHex = null
 
 if (process.isClient) {
-  const web3Accounts = require('@polkadot/extension-dapp').web3Accounts
-  const web3Enable = require('@polkadot/extension-dapp').web3Enable
-  const web3FromAddress = require('@polkadot/extension-dapp').web3FromAddress
-  const Keyring = require('@polkadot/keyring').Keyring
-  const stringToHex = require('@polkadot/util').stringToHex
+  web3Accounts = require('@polkadot/extension-dapp').web3Accounts
+  web3Enable = require('@polkadot/extension-dapp').web3Enable
+  web3FromAddress = require('@polkadot/extension-dapp').web3FromAddress
+  Keyring = require('@polkadot/keyring').Keyring
+  stringToHex = require('@polkadot/util').stringToHex
 }
 
 const getInjectedAccounts = async () => {
