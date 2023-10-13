@@ -19,6 +19,11 @@
               taskId="send_roc_tx"></PracticeChecker>
           <PracticeChecker
               practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="democracy_proposal"
+              question="Enter your proposal id(it should be a number like 58)"
+          ></PracticeChecker>
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
               taskId="roc_create_asset"
               question="Enter asset id of created token"
           >

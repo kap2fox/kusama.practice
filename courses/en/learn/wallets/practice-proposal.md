@@ -59,8 +59,14 @@ After the launch period, if the proposal has gained enough endorsements or if th
 Depending on the importance of proposed changes in the network, some proposals may require the support of the majority of all token holders in the network. Less demanding proposals only require any number of Yay votes to outweigh Nay votes.
 
 To complete this task, you don't need to wait for your proposal to enter the referendum state and be accepted. However, we recommend waiting for this and trying to push your proposal for accepting.
-
-
+  
+<AccountManager>
+<PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="democracy_proposal"
+              question="Enter your proposal id(it should be a number like 58)"
+          ></PracticeChecker>
+</AccountManager>
 <FeedbackBlock 
 formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"
 lessonLabel="practice-proposal"

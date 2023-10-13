@@ -851,12 +851,12 @@
   updated/en/learn/kusama-theory-practice/practice-mint/: false  
 
 - link: /en/learn/kusama-theory-practice/practice-ipfs/ 
-  hash: 11332f890b8a52aef2ef9781d195b1b8 
+  hash: 547dcc3a015cd5b6f8de34ff3051129e 
   lastUpdate: Fri Oct 13 2023 10:49:10 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-ipfs/: true                   
+  updated/en/learn/kusama-theory-practice/practice-ipfs/: true                    
 
 - link: /en/learn/kusama-theory-practice/practice-ipfs/ 
-  hash: 547dcc3a015cd5b6f8de34ff3051129e 
+  hash: 11332f890b8a52aef2ef9781d195b1b8 
   lastUpdate: Fri Oct 13 2023 10:49:10 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/kusama-theory-practice/practice-ipfs/: true  
 
@@ -888,7 +888,7 @@
 - link: /en/learn/kusama-theory-practice/practice-lamp/ 
   hash: 547dcc3a015cd5b6f8de34ff3051129e 
   lastUpdate: Fri Oct 13 2023 10:49:10 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/kusama-theory-practice/practice-lamp/: true                    
+  updated/en/learn/kusama-theory-practice/practice-lamp/: true                     
 
 - link: /en/learn/kusama-theory-practice/practice-lamp/ 
   hash: 11332f890b8a52aef2ef9781d195b1b8 
@@ -1027,18 +1027,18 @@
 
 - link: /en/learn/wallets/overview/ 
   hash: c8a6cff960840014afd58493c0f1de00 
-  lastUpdate: Wed Oct 11 2023 17:22:57 GMT+0300 (Moscow Standard Time) 
+  lastUpdate: Fri Oct 13 2023 16:32:04 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/wallets/overview/: false  
 
 - link: /en/learn/wallets/novawallet/ 
   hash: 0c7f651cf568705e65e4d02a02854cb0 
-  lastUpdate: Wed Oct 11 2023 17:22:57 GMT+0300 (Moscow Standard Time) 
+  lastUpdate: Fri Oct 13 2023 16:33:47 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/wallets/novawallet/: false  
 
 - link: /en/learn/wallets/practice-proposal/ 
-  hash: 1d7f1806764e83ee19cef37203d2d623 
-  lastUpdate: Wed Oct 11 2023 17:22:57 GMT+0300 (Moscow Standard Time) 
-  updated/en/learn/wallets/practice-proposal/: false  
+  hash: 5c2b63dd75bf53aa3120cab3ffa7bc96 
+  lastUpdate: Fri Oct 13 2023 16:34:04 GMT+0300 (Moscow Standard Time) 
+  updated/en/learn/wallets/practice-proposal/: true  
 
 - link: /en/learn/wallets/ledger/ 
   hash: fd18f75f35a2d1c7d3167836ffb321a6 
@@ -1126,8 +1126,8 @@
   updated/en/learn/crust/overview/: false  
 
 - link: /en/learn/crust/practice-crust/ 
-  hash: f1b1fe5d06179332be8cd264bdcd69eb 
-  lastUpdate: Fri Oct 13 2023 15:09:41 GMT+0300 (Moscow Standard Time) 
+  hash: 2b4b95573b6a9b2d4e51797c59685c87 
+  lastUpdate: Fri Oct 13 2023 15:09:46 GMT+0300 (Moscow Standard Time) 
   updated/en/learn/crust/practice-crust/: true  
 
 - link: /en/learn/robonomics/spot/ 
