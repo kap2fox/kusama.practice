@@ -49,8 +49,6 @@
               taskId="crust_shadow_order"
               question="Enter ipfs cid(Qm...) of pinned .txt file"
           ></PracticeChecker>
-
-
         </AccountManager>
 
       </section>
