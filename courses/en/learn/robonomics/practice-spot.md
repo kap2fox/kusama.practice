@@ -35,3 +35,10 @@ In this practice, you will learn how Spot executes remote commands using web3 pr
 7. Also the picture drawn by Spot is minted as NFT and send to your wallet.
 
 <LessonImages src="kusama-theory-practice/spot-nft.png" alt=""/>
+
+<AccountManager>
+<PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="spot_launch"
+          ></PracticeChecker>
+</AccountManager>

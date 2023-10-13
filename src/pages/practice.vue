@@ -17,6 +17,39 @@
           <PracticeChecker
               practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
               taskId="send_roc_tx"></PracticeChecker>
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="roc_create_asset"
+              question="Enter asset id of created token"
+          >
+          </PracticeChecker>
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="spot_launch"
+          >
+          </PracticeChecker>
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="lights_up"
+          >
+          </PracticeChecker>
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="ipfs_pin"
+              question="Enter ipfs cid(Qm...) of pinned .txt file"
+          ></PracticeChecker>
+
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="crust_rocky_order"
+              question="Enter ipfs cid(Qm...) of pinned .txt file"
+          ></PracticeChecker>
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="crust_shadow_order"
+              question="Enter ipfs cid(Qm...) of pinned .txt file"
+          ></PracticeChecker>
+
 
         </AccountManager>
 

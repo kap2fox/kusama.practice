@@ -49,6 +49,13 @@ To distribute your tokens to several addresses at once, we suggest you use [our 
 7. In the `AMOUNT` field, you need to specify how much of your tokens will be equally distributed to the selected addresses. Keep in mind that you need to specify this amount in fractions of the token, depending on the number of decimal places you specified when creating your asset.
 8. Next, you need to sequentially execute two blocks that will send your transactions. The first transaction will send ROC tokens, and the second will send your asset tokens.
 
+<AccountManager>
+          <PracticeChecker
+              practiceCheckerUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/checker/check_task"
+              taskId="roc_create_asset" 
+                question="Enter asset id of created token" >
+</PracticeChecker>
+</AccountManager>
 
 <FeedbackBlock 
 formUrl="https://faas-fra1-afec6ce7.doserverless.co/api/v1/web/fn-18e93402-1ffe-47e8-be1d-e28a6ac871f1/default/Feedback"
