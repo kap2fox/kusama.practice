@@ -10,6 +10,7 @@
 
         <nav id="nav" class="nav header__section">
             <g-link class="nav__link" :class="{'active': $route.path.includes('learn')}" to="/learn/">{{$ts('Learn')}}</g-link>
+            <g-link class="nav__link" :class="{'active': $route.path.includes('practice')}" to="/practice/">{{$ts('Your progress')}}</g-link>
             <!-- <g-link class="nav__link" :class="{'active': $route.path.includes('playground')}" to="/playground/">{{$ts('Playground')}}</g-link> -->
 <!--            <g-link class="nav__link" :class="{'active': $route.path.includes('certificates')}" to="/certificates/">{{$ts('Blockchain certificate')}}</g-link>-->
         </nav>
