@@ -52,7 +52,7 @@ For NFT selling Basilisk features [KodaDot](https://kodadot.xyz/) - an open-sour
 
 At a later date, with the support of KodaDot’s UI the developers of Basilisk promise to update their marketplace, where besides minting and listing NFTs, users will also have an ability to set a royalty fee (a percentage of every trade goes to the owner of the fee), and to place an offer for non-listed NFTs. Apart from that they are developing a mechanism which will allow users to flip their NFTs using auctions - English, Top up and Candle auctions.
 
-Basilisk is an actively developing and growing project, promising a lot of fresh new features for Web3. Join their live roadmap and check what has been done and what is about to be done irl - [Basilisk](https://www.notion.so/Basilisk-Features-Roadmap-External-d70cd8f064634bdfb547726dc57a2b2e?pvs=21) [features roadmap.](https://www.notion.so/Basilisk-Features-Roadmap-External-d70cd8f064634bdfb547726dc57a2b2e?pvs=21)
+Basilisk is an actively developing and growing project, promising a lot of fresh new features for Web3. Join their live roadmap and check what has been done and what is about to be done irl - [Basilisk features roadmap.](https://www.notion.so/Basilisk-Features-Roadmap-External-d70cd8f064634bdfb547726dc57a2b2e?pvs=21)
 
 <LessonImages src="kusama-theory-practice/lesson12-diagram.png" alt=""/>
 

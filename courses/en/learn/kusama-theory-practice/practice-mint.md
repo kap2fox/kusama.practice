@@ -13,7 +13,7 @@ In this practical task, you will use AssetHub on the Rococo testnet to mint your
 
 ### Teleporting ROC
 
-1. Make sure you have enough ROC tokens (1 ROC is more then enough). If not, your can use [Triangle faucet](https://faucet.triangleplatform.com/polkadot/rococo) or any faucet that your can find in Internet. 
+1. Make sure you have enough ROC tokens (1 ROC is more than enough). If not, you can use [Triangle faucet](https://faucet.triangleplatform.com/polkadot/rococo) or any faucet that your can find in Internet. 
 2. Select the Rococo testnet on the [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io) portal. Go to the Accounts tab and choose Teleport.
 3. In `send from account` and `send to address` fields choose your account. In the destination chain field select **AssetHub**. Specify needed amount of ROC tokens and confirm the transaction.
 4. Go to AssetHub in Rococo and check that the tokens teleported successfully.

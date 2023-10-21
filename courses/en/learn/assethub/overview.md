@@ -91,9 +91,8 @@ On the other hand, a sufficient asset, such as Tether (USDT), does not require t
 Existential Deposit (ED) is the minimum amount of tokens that a wallet must hold on the relay chain to be considered "active." This limit helps maintain network performance and reduces fees.
 </robo-academy-note>
 
-If you want to practice creating your own token, you can do so on a testnet by using test tokens, which can be easily obtained through a faucet’s. We have demonstrated the entire process in our video lesson.
+If you want to practice creating your own token, you can do so on a testnet by using test tokens, which can be easily obtained through a faucets. We have demonstrated the entire process in our video lesson.
 
-If you want to practice creating your own token, you can do so on a testnet by using test tokens, which can be easily obtained through a faucet’s. We have demonstrated the entire process in our video lesson.
 
 # Extra
 

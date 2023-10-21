@@ -13,7 +13,7 @@ https://youtu.be/YgJqWyBaOGY
 
 # Introduction
 
-In our earlier lessons, we explored how parachains in the Polkadot ecosystem are typically based on the Substrate framework or compatible with the Ethereum Virtual Machine (EVM). Moonriver serves as an excellent example of a Substrate-based blockchain, offering compatibility with Ethereum's smart contracts and dApps. 
+In previous lessons, we explored how parachains in the Polkadot ecosystem are typically based on the Substrate framework or compatible with the Ethereum Virtual Machine (EVM). Moonriver serves as an excellent example of a Substrate-based blockchain, offering compatibility with Ethereum's smart contracts and dApps. 
 
 With Moonriver, developers can easily deploy existing Solidity smart contracts and dApp frontends on the Kusama network with minimal modifications. This unique compatibility sets Moonriver apart as a powerful tool for decentralized applications and cross-chain interoperability within the Polkadot ecosystem, making possible delivering tokens outside of Kusama network.
 
@@ -21,7 +21,7 @@ With Moonriver, developers can easily deploy existing Solidity smart contracts a
 
 The "Moon" family of blockchains includes Moonbeam, Moonriver, and Moonbase. Moonbeam, often considered the pioneer of this family, is an Ethereum-compatible parachain on Polkadot. It provides a bridge for Ethereum developers to port their existing Solidity smart contracts to Polkadot, fostering cross-chain compatibility and enabling the deployment of decentralized applications (DApps) on the Polkadot network.
 
-Moonriver acts as a sister network to Moonbeam and operates on the Kusama network, which is a sister network to Polkadot. Moonbeam and Moonriver have nearly identical underlying technology. Moonriver may receive new features first before they get deployed to Moonbeam. The two share a testnet called Moonbase, where new features being tested before applying to Moonriver or Moonbase. 
+Moonriver acts as a sister network to Moonbeam and operates on the Kusama network, which is a sister network to Polkadot. Moonbeam and Moonriver have nearly identical underlying technology. Moonriver may receive new features first before they get deployed to Moonbeam. The two share a testnet called Moonbase, where new features being tested before applying to Moonriver or Moonbeam. 
 
 As you may have realized, the main purpose of this Moon family is to help developers build or to deploy existing Solidity and Vyper-based dApps directly from Ethereum network to Polkadot ecosystem. That’s the way they solve the famous interoperability problem.
 

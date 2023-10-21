@@ -33,7 +33,7 @@ Important to know, in Governance V1, all referenda carried the same weight as on
 
 In July 2022, the OpenGov (or Governance V2) was launched as the new governance system that replaced Governance V1. It has become even more decentralized, open, efficient, and future-facing than the previous one. Here's why:
 
-- **The Technical Committee and the Council were** **removed**. All decision-making power came to the community through a referenda system. Instead, the decentralized Polkadot Fellowship became the new technical expertise, which, in fact, does not have hard power over the network;
+- **The Technical Committee and the Council were removed**. All decision-making power came to the community through a referenda system. Instead, the decentralized Polkadot Fellowship became the new technical expertise, which, in fact, does not have hard power over the network;
 - **A multirole delegation system appeared**. If you do not count yourself as the bright mind of the crypto world, you can follow some network member and share your vote with him. One for staking, one for treasury, another for technical moments. You got the idea;
 - **Multiple parallel referenda tracks**. The community can vote on thousands of proposals at any time.
 
@@ -104,8 +104,6 @@ The upcoming module of our course will focus on managing assets via AssetHub, a 
 # Extra
 
 [A Walkthrough of Polkadot’s Governance](https://www.polkadot.network/blog/a-walkthrough-of-polkadots-governance)
-
-[https://github.com/turtlebot/turtlebot4](https://github.com/turtlebot/turtlebot4)
 
 </Spoiler>
 

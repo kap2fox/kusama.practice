@@ -28,9 +28,9 @@ Home Assistant excels in local IoT control within your home. In contrast, Robono
 
 ### Robonomic’s Home Assistant Integration
 
-Robonomics integration offers a **gateway** to your local smart home, enabling remote access **through** **encrypted** **transactions** on the Robonomics blockchain. This robust integration empowers you to:
+Robonomics integration offers a **gateway** to your local smart home, enabling remote access **through encrypted transactions** on the Robonomics blockchain. This robust integration empowers you to:
 
-1. **Monitor Current States**: Keep a watchful eye on the real-time status of your smart devices and sensors, regardless of your physical location.
+1. **Monitor Current States**: Keep an eye on the real-time status of your smart devices and sensors, regardless of your physical location.
 2. **Call Services**: With the power of blockchain at your fingertips, initiate and manage services for your connected devices effortlessly.
 3. **User Management**: Seamlessly administer Home Assistant users, ensuring secure and convenient access for authorized individuals.
 4. **Backup Creation**: Safeguard your smart home configuration and data by creating backups that can be readily accessed when needed. 
@@ -43,7 +43,7 @@ Everything you’ll need is accessible via Robonomics Dapp
 
 In our exploration of the Lights Up demo, we've had a glimpse of the power of subscriptions, a concept central to the Robonomics ecosystem. But subscriptions in Robonomics extend beyond mere demonstrations. They address a common and persistent annoyance in the world of blockchain transactions – paying commissions. Picture this: an IoT device dutifully sending telemetry data every 5 to 10 minutes. While this continuous data flow is invaluable, it can quickly accumulate transaction fees that become a significant expense over the course of a month. Enter the Robonomics Web Service (RWS) subscription, a standout feature of the Robonomics Network. With RWS, you can simply pay a monthly fee and bid farewell to the hassle of transaction costs. It's a game-changer for IoT enthusiasts, offering a **cost-effective and convenient solution for managing and maintaining** your smart ecosystem.
 
-What's even more impressive is the flexibility RWS provides. You have the power to **add and remove** **other** **individuals** to and from this subscription, granting them seamless access without the need for any additional setup or expenditure. This collaborative approach not only simplifies the sharing of resources and data but also underscores the inclusive and community-driven ethos of Robonomics. With RWS, the benefits of blockchain technology are made accessible to all, fostering a vibrant ecosystem of shared resources and collaborative innovation.
+What's even more impressive is the flexibility RWS provides. You have the power to **add and remove other individuals** to and from this subscription, granting them seamless access without the need for any additional setup or expenditure. This collaborative approach not only simplifies the sharing of resources and data but also underscores the inclusive and community-driven ethos of Robonomics. With RWS, the benefits of blockchain technology are made accessible to all, fostering a vibrant ecosystem of shared resources and collaborative innovation.
 
 ### Things that you need
 

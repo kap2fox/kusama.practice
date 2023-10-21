@@ -56,7 +56,7 @@ Not every blockchain can become a parachain of Polkadot or Kusama network. To be
 - **Be substrate-based or be compatible.** Polkadot and Kusama are built on a Substrate framework. To become a parachain, the blockchain must also be built on Substrate or at least be compatible with it.
 - **Adopt a shared security model.** Potential Parachains need to adopt Polkadot or Kusama's shared security model, which means they don't need their own set of validators or miners to secure their network. Instead, they rely on Polkadot or Kusama's validators.
 
-If a blockchain doesn't meet these criteria, such as having a different consensus mechanism or not being built on Substrate, then we need them **bridges**.
+If a blockchain doesn't meet these criteria, such as having a different consensus mechanism or not being built on Substrate, then we need **bridge** them.
 
 In our future city, we can imagine bridges… as actual bridges allowing a free flow of goods and supplies between our city and neighboring cities, i.e., external blockchains like Ethereum or Bitcoin. These blockchains cannot become parachains because they use different consensus mechanisms and have their own unique architecture, community, governance models, etc. Becoming a parachain would mean giving up sovereignty as they would have to conform to Polkadot's consensus and governance model.
 
