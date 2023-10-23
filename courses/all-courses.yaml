@@ -49,11 +49,11 @@
       path: 'overview'
       status: done
     - id: '1'
-      title: 'Exploring the Polkadot'
+      title: 'What is polkadot?'
       path: 'intro-to-polkadot'
       status: done
     - id: '2'
-      title: 'Polkadot & Kusama structure'
+      title: 'How Polkadot ecosystem works?'
       path: 'ecosystem-explained'
       status: done
     - id: '32'
@@ -61,7 +61,7 @@
       path: 'practice-wallet'
       status: done
     - id: '3'
-      title: 'NPoS tools in Polkadot'
+      title: 'Make Your First Crypto Transaction'
       path: 'first-transaction'
       status: done
     - id: '33'
@@ -69,15 +69,15 @@
       path: 'practice-transaction'
       status: done
     - id: '4'
-      title: 'More than just a wallet'
+      title: 'Setup Talisman the web wallet'
       path: 'talisman'
       status: done
     - id: '5'
-      title: 'A vault for your crypto'
+      title: 'Why is Ledger safer for crypto'
       path: 'ledger'
       status: done
     - id: '6'
-      title: 'Polkadot in your hand'
+      title: 'Crypto in your mobile NovaWallet'
       path: 'novawallet'
       status: done
     - id: '36'
@@ -85,11 +85,11 @@
       path: 'practice-proposal'
       status: done
     - id: '7'
-      title: 'Minting tokens in AssetHub'
+      title: 'How to mint your own token?'
       path: 'token-mint'
       status: done
     - id: '8'
-      title: 'Token distribution'
+      title: 'How to manage your token?'
       path: 'token-manage'
       status: done
     - id: '34'
@@ -97,27 +97,27 @@
       path: 'practice-mint'
       status: done
     - id: '9'
-      title: 'Web3 Transition'
+      title: 'Website authorization with polkadot wallet'
       path: 'polkadot-auth'
       status: done
     - id: '10'
-      title: 'Legal ways to obtain KSM'
+      title: 'Where KSM is living?'
       path: 'ksm'
       status: done
     - id: '11'
-      title: 'Kusama DeFi Hub'
+      title: 'Karura - the way to swap KSM/CSM'
       path: 'karura'
       status: done
     - id: '12'
-      title: 'BSX style Liquidity'
+      title: 'Basilisk - the way to swap KSM/XRT'
       path: 'basilisk'
       status: done
     - id: '13'
-      title: 'Kusama’s external bridge'
+      title: 'Moonriver - bridge to Ethereum'
       path: 'moonriver'
       status: done
     - id: '14'
-      title: 'Decentralized storage network'
+      title: 'InterPlanetary File System as file storage'
       path: 'ipfs'
       status: done
     - id: '314'
@@ -125,7 +125,7 @@
       path: 'practice-ipfs'
       status: done
     - id: '15'
-      title: 'How to manage data in IPFS?'
+      title: 'Crust distribute your file in the network'
       path: 'crust'
       status: done
     - id: '315'
@@ -133,7 +133,7 @@
       path: 'practice-crust'
       status: done
     - id: '16'
-      title: 'Decentralized Internet'
+      title: 'Crust routine automation'
       path: 'crust-routine'
       status: done
     - id: '17'
@@ -209,7 +209,7 @@
   published: true
   lessons:
     - id: '14'
-      title: 'Decentralized storage network'
+      title: 'InterPlanetary File System as file storage'
       path: 'overview'
       status: done
     - id: '314'
@@ -217,7 +217,7 @@
       path: 'practice-ipfs'
       status: done
     - id: '15'
-      title: 'How to manage data in IPFS?'
+      title: 'Crust distribute your file in the network'
       path: 'crust'
       status: done
     - id: '315'
@@ -225,7 +225,7 @@
       path: 'practice-crust'
       status: done
     - id: '16'
-      title: 'Decentralized Internet'
+      title: 'Crust routine automation'
       path: 'crust-routine'
       status: done
 
@@ -241,19 +241,19 @@
   published: true
   lessons:
     - id: '10'
-      title: 'Legal ways to obtain KSM'
+      title: 'Where KSM is living?'
       path: 'overview'
       status: done
     - id: '11'
-      title: 'Kusama DeFi Hub'
+      title: 'Karura - the way to swap KSM/CSM'
       path: 'karura'
       status: done
     - id: '12'
-      title: 'BSX style Liquidity'
+      title: 'Basilisk - the way to swap KSM/XRT'
       path: 'basilisk'
       status: done
     - id: '13'
-      title: 'Kusama’s external bridge'
+      title: 'Moonriver - bridge to Ethereum'
       path: 'moonriver'
       status: done
 
@@ -269,11 +269,11 @@
   published: true
   lessons:
     - id: '7'
-      title: 'Minting tokens in AssetHub'
+      title: 'How to mint your own token?'
       path: 'overview'
       status: done
     - id: '8'
-      title: 'Token distribution'
+      title: 'How to manage your token?'
       path: 'token-manage'
       status: done
     - id: '34'
@@ -281,7 +281,7 @@
       path: 'practice-mint'
       status: done
     - id: '9'
-      title: 'Web3 Transition'
+      title: 'Website authorization with polkadot wallet'
       path: 'polkadot-auth'
       status: done
 
@@ -297,15 +297,15 @@
   published: true
   lessons:
     - id: '4'
-      title: 'More than just a wallet'
+      title: 'Setup Talisman the web wallet'
       path: 'overview'
       status: done
     - id: '5'
-      title: 'A vault for your crypto'
+      title: 'Why is Ledger safer for crypto'
       path: 'ledger'
       status: done
     - id: '6'
-      title: 'Polkadot in your hand'
+      title: 'Crypto in your mobile NovaWallet'
       path: 'novawallet'
       status: done
     - id: '36'
@@ -326,11 +326,11 @@
   published: true
   lessons:
     - id: '1'
-      title: 'Exploring the Polkadot'
+      title: 'What is polkadot?'
       path: 'overview'
       status: done
     - id: '2'
-      title: 'Polkadot & Kusama structure'
+      title: 'How Polkadot ecosystem works?'
       path: 'ecosystem-explained'
       status: done
     - id: '32'
@@ -338,7 +338,7 @@
       path: 'practice-wallet'
       status: done
     - id: '3'
-      title: 'NPoS tools in Polkadot'
+      title: 'Make Your First Crypto Transaction'
       path: 'first-transaction'
       status: done
     - id: '33'
