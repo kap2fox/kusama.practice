@@ -41,6 +41,21 @@
       </div>
     </section>
 
+      <section class="container__mid">
+                  <h1>{{ $ts('Already know everything? Try our colleagues:') }}</h1>
+
+        <div class="grid-6">
+
+          <div/>
+          <a href="https://polkadot-blockchain-academy.github.io/pba-book/index.html"><g-image src="@/assets/images/PBA.svg" alt="Polkadot Blockchain Academy" style="max-width: 350px; max-height: 150px"/></a>
+          <div/>
+          <a href="https://polkadot.study/"><g-image src="@/assets/images/PolkadotStudy.svg" alt="Polkadot Study" style="max-width: 350px"/></a>
+          <div/>
+          <a href="https://academy.moonbeam.network/"><g-image src="@/assets/images/MoonbuildersAcademy.svg" alt="MoonbuildersAcademy" style="max-width: 350px" /></a>
+        </div>
+      </section>
+
+
   </Layout>
 </template>
 
