@@ -18,9 +18,9 @@
         <a href="#" class="nav__popup__close" @click="close('#nav')"><font-awesome-icon icon="fa-circle-xmark"/></a>
         <a href="#nav" class="nav__popup__link" @click.prevent="open('#nav')"><font-awesome-icon icon="fa-bars"/></a>
 
-<!--        <div class="header-right expand header__section" tabindex="0">-->
-<!--            <LanguageSwitcher/> -->
-<!--        </div>-->
+        <div class="header-right expand header__section" tabindex="0">
+            <LanguageSwitcher/>
+        </div>
 
       </div>
     </header>

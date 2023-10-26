@@ -1,18 +1,18 @@
 - lang: English
   abbr: en
   id: 0
-- lang: Русский
-  abbr: ru
-  id: 1
+#- lang: Русский
+#  abbr: ru
+#  id: 1
 - lang: Español
   abbr: es
-  id: 2
-- lang: Deutsch
-  abbr: de
-  id: 3
-- lang: Italiano
-  abbr: it
-  id: 4
-- lang: Português
-  abbr: pt
-  id: 5
+  id: 1
+#- lang: Deutsch
+#  abbr: de
+#  id: 3
+#- lang: Italiano
+#  abbr: it
+#  id: 4
+#- lang: Português
+#  abbr: pt
+#  id: 5
