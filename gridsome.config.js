@@ -50,6 +50,14 @@ module.exports = {
 
   plugins: [
     {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'G-Z2T5V575QP',
+        enabled: true,
+        debug: true
+      }
+    },
+    {
       use: "gridsome-plugin-translateit",
       options: {
         locales: ["en", "ru", "es", "de", "it", "pt"],
