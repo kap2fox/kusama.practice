@@ -234,10 +234,19 @@ export default function (Vue, { router, head, isClient, appOptions }) {
       }
    },
   });
-
+  head.script.push({
+    src: 'https://www.googletagmanager.com/gtag/js?id=G-Z2T5V575QP',
+    async: true
+  })
 
   if(isClient) {
     Vue.use(userTracker);
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-Z2T5V575QP');
+    window.gtag = gtag
     
   }
 
